@@ -6,7 +6,7 @@
   "scripts": {
     "format": "prettier --list-different --single-quote --write **/*.{js,jsx}",
     "eslint": "eslint **/*.js --quiet",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js --watch"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
