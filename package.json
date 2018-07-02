@@ -9,6 +9,11 @@
     "build": "webpack --config webpack.config.js"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "17.0.0",
     "eslint-plugin-import": "^2.12.0",
