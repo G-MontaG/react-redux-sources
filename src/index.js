@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 const secondComponent = props => React.createElement('div', null,
   React.createElement('h2', { style: { 'font-size': props.fontSize } }, 'Second component'));
 

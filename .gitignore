@@ -67,3 +67,5 @@ typings/
 nbproject
 .idea
 .node_history
+
+/dist
