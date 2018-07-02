@@ -4,6 +4,14 @@
     "react-dom": "^16.4.1"
   },
   "scripts": {
-    "format": "prettier --list-different --single-quote --write **/*.{js,jsx}"
+    "format": "prettier --list-different --single-quote --write **/*.{js,jsx}",
+    "eslint": "eslint **/*.js --quiet"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "17.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1"
   }
 }
