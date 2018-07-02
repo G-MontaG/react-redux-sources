@@ -2,5 +2,8 @@
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
+  },
+  "scripts": {
+    "format": "prettier --list-different --single-quote --write **/*.{js,jsx}"
   }
 }
