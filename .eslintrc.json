@@ -9,6 +9,9 @@
       "jsx": true
     }
   },
+  "rules": {
+    "react/jsx-one-expression-per-line": false
+  },  
   "env": {
     "es6": true,
     "browser": true,
