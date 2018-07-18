@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import './Landing.css';
 
 const Landing = () => (
   <React.Fragment>
