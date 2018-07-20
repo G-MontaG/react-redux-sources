@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import coinsList from '../../data/coinsList.json';
-import { CRYPTO_COMPARE_URL } from '../../constants';
+import CoinCard from '../../components/CoinCard';
 
 class Coins extends Component {
   constructor(props) {
@@ -12,15 +12,9 @@ class Coins extends Component {
     return (
       <div>
         Coins
-        {Object.keys(coinsList.Data).map((key) => {
-          const coin = coinsList.Data[key];
-          return (
-            <div className="coin-card">
-              <h4>{coin.Name}</h4>
-              <img src={`${CRYPTO_COMPARE_URL}${coin.ImageUrl}`} alt={coin.Name} />
-            </div>
-          );
-        })}
+        {Object.keys(coinsList.Data).map(key => (
+          <CoinCard coin={coinsList.Data[key]} />
+        ))}
       </div>
     );
   }
