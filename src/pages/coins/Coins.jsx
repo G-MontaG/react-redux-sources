@@ -11,6 +11,11 @@ class Coins extends Component {
     return (
       <div>
         Coins
+        {Object.keys(coinsList.Data).map(key => (
+          <p>
+            {coinsList.Data[key].Name}
+          </p>
+        ))}
       </div>
     );
   }
