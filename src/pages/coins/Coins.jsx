@@ -1,20 +1,33 @@
 import React, { Component } from 'react';
-import coinsList from '../../data/coinsList.json';
+import coinsData from '../../data/coinsList.json';
 import CoinCard from '../../components/CoinCard';
 import './Coins.css';
 
 class Coins extends Component {
   constructor(props) {
     super(props);
-    console.log(coinsList);
+    
+    this.state = {
+      coinsList: Object.keys(coinsData.Data).slice(0, 10).map(key => coinsData.Data[key]),
+    };
   }
 
   render() {
+    const { coinsList } = this.state;
+
     return (
-      <div className="coin-list">
-        {Object.keys(coinsList.Data).slice(0, 10).map(key => (
-          <CoinCard coin={coinsList.Data[key]} key={coinsList.Data[key].Id} />
-        ))}
+      <div>
+        <div>
+          <label htmlFor="search">
+            Search
+            <input type="text" name="search" id="search" />
+          </label>
+        </div>
+        <div className="coin-list">
+          {coinsList.map(coin => (
+            <CoinCard coin={coin} key={coin.Id} />
+          ))}
+        </div>
       </div>
     );
   }
