@@ -13,7 +13,7 @@ class Coins extends Component {
       <div>
         Coins
         {Object.keys(coinsList.Data).map(key => (
-          <CoinCard coin={coinsList.Data[key]} />
+          <CoinCard coin={coinsList.Data[key]} key={coinsList.Data[key].Id} />
         ))}
       </div>
     );
