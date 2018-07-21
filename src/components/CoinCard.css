@@ -1,0 +1,7 @@
+.coin-card {
+  width: 30%;
+  border: 1px solid tomato;
+  margin: 5px;
+  padding: 5px;
+  overflow: hidden;
+}

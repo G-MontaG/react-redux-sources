@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import coinsList from '../../data/coinsList.json';
 import CoinCard from '../../components/CoinCard';
+import './Coins.css';
 
 class Coins extends Component {
   constructor(props) {
@@ -10,9 +11,8 @@ class Coins extends Component {
 
   render() {
     return (
-      <div>
-        Coins
-        {Object.keys(coinsList.Data).map(key => (
+      <div className="coin-list">
+        {Object.keys(coinsList.Data).slice(0, 10).map(key => (
           <CoinCard coin={coinsList.Data[key]} key={coinsList.Data[key].Id} />
         ))}
       </div>

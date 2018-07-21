@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { CRYPTO_COMPARE_URL } from '../constants';
+import './CoinCard.css';
 
 const CoinCard = ({ coin }) => (
   <div className="coin-card">
