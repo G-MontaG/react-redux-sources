@@ -4,23 +4,31 @@ import CoinCard from '../../components/CoinCard';
 import './Coins.css';
 
 class Coins extends Component {
-  constructor(props) {
-    super(props);
-    
-    this.state = {
-      coinsList: Object.keys(coinsData.Data).slice(0, 10).map(key => coinsData.Data[key]),
-    };
-  }
+  state = {
+    coinsList: Object.keys(coinsData.Data).slice(0, 10).map(key => coinsData.Data[key]),
+    search: '',
+  };
+
+  handleSearchChange = (event) => {
+    this.setState({ search: event.target.value });
+  };
 
   render() {
-    const { coinsList } = this.state;
+    const { coinsList, search } = this.state;
 
     return (
       <div>
         <div>
           <label htmlFor="search">
             Search
-            <input type="text" name="search" id="search" />
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Type to search"
+              value={search}
+              onChange={this.handleSearchChange}
+            />
           </label>
         </div>
         <div className="coin-list">
