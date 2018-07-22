@@ -13,13 +13,12 @@ class Coins extends Component {
     this.setState({ search: event.target.value });
   };
 
-  filterCoinsListBySearch = () => {
-    const { coinsList, search } = this.state;
-    return coinsList.filter(coin => coin.CoinName.toLowerCase().includes(search.toLowerCase()));
-  }
+  filterListBySearchTerm = (list, searchTerm) => (
+    list.filter(coin => coin.CoinName.toLowerCase().includes(searchTerm.toLowerCase()))
+  );
 
   render() {
-    const { search } = this.state;
+    const { coinsList, search } = this.state;
 
     return (
       <div>
@@ -37,7 +36,7 @@ class Coins extends Component {
           </label>
         </div>
         <div className="coin-list">
-          {this.filterCoinsListBySearch().map(coin => (
+          {this.filterListBySearchTerm(coinsList, search).map(coin => (
             <CoinCard coin={coin} key={coin.Id} />
           ))}
         </div>
