@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Coins render correctly 1`] = `
+<div>
+  <div>
+    <label
+      htmlFor="search"
+    >
+      Search
+      <input
+        id="search"
+        name="search"
+        onChange={[Function]}
+        placeholder="Type to search"
+        type="text"
+        value=""
+      />
+    </label>
+  </div>
+  <div
+    className="coin-list"
+  >
+    <div
+      className="coin-card"
+    >
+      <h4>
+        42 Coin
+      </h4>
+      <img
+        alt="42 Coin"
+        src="https://www.cryptocompare.com//media/12318415/42.png"
+      />
+    </div>
+    <div
+      className="coin-card"
+    >
+      <h4>
+        300 token
+      </h4>
+      <img
+        alt="300 token"
+        src="https://www.cryptocompare.com//media/27010595/300.png"
+      />
+    </div>
+    <div
+      className="coin-card"
+    >
+      <h4>
+        365Coin
+      </h4>
+      <img
+        alt="365Coin"
+        src="https://www.cryptocompare.com//media/352070/365.png"
+      />
+    </div>
+    <div
+      className="coin-card"
+    >
+      <h4>
+        404Coin
+      </h4>
+      <img
+        alt="404Coin"
+        src="https://www.cryptocompare.com//media/351001/404.png"
+      />
+    </div>
+    <div
+      className="coin-card"
+    >
+      <h4>
+        SixEleven
+      </h4>
+      <img
+        alt="SixEleven"
+        src="https://www.cryptocompare.com//media/350985/611.png"
+      />
+    </div>
+    <div
+      className="coin-card"
+    >
+      <h4>
+        808
+      </h4>
+      <img
+        alt="808"
+        src="https://www.cryptocompare.com//media/351513/808.png"
+      />
+    </div>
+    <div
+      className="coin-card"
+    >
+      <h4>
+        Octocoin
+      </h4>
+      <img
+        alt="Octocoin"
+        src="https://www.cryptocompare.com//media/351639/888.png"
+      />
+    </div>
+    <div
+      className="coin-card"
+    >
+      <h4>
+        1337
+      </h4>
+      <img
+        alt="1337"
+        src="https://www.cryptocompare.com//media/350976/1337.png"
+      />
+    </div>
+    <div
+      className="coin-card"
+    >
+      <h4>
+        2015 coin
+      </h4>
+      <img
+        alt="2015 coin"
+        src="https://www.cryptocompare.com//media/20180/2015.png"
+      />
+    </div>
+    <div
+      className="coin-card"
+    >
+      <h4>
+        Bitcoin
+      </h4>
+      <img
+        alt="Bitcoin"
+        src="https://www.cryptocompare.com//media/19633/btc.png"
+      />
+    </div>
+  </div>
+</div>
+`;
