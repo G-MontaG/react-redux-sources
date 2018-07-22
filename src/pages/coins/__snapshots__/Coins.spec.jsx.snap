@@ -1,135 +1,1801 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Coins render correctly 1`] = `
-<div>
-  <div>
-    <label
-      htmlFor="search"
-    >
-      Search
-      <input
-        id="search"
-        name="search"
-        onChange={[Function]}
-        placeholder="Type to search"
-        type="text"
-        value=""
-      />
-    </label>
-  </div>
-  <div
-    className="coin-list"
-  >
-    <div
-      className="coin-card"
-    >
-      <h4>
-        42 Coin
-      </h4>
-      <img
-        alt="42 Coin"
-        src="https://www.cryptocompare.com//media/12318415/42.png"
-      />
-    </div>
-    <div
-      className="coin-card"
-    >
-      <h4>
-        300 token
-      </h4>
-      <img
-        alt="300 token"
-        src="https://www.cryptocompare.com//media/27010595/300.png"
-      />
-    </div>
-    <div
-      className="coin-card"
-    >
-      <h4>
-        365Coin
-      </h4>
-      <img
-        alt="365Coin"
-        src="https://www.cryptocompare.com//media/352070/365.png"
-      />
-    </div>
-    <div
-      className="coin-card"
-    >
-      <h4>
-        404Coin
-      </h4>
-      <img
-        alt="404Coin"
-        src="https://www.cryptocompare.com//media/351001/404.png"
-      />
-    </div>
-    <div
-      className="coin-card"
-    >
-      <h4>
-        SixEleven
-      </h4>
-      <img
-        alt="SixEleven"
-        src="https://www.cryptocompare.com//media/350985/611.png"
-      />
-    </div>
-    <div
-      className="coin-card"
-    >
-      <h4>
-        808
-      </h4>
-      <img
-        alt="808"
-        src="https://www.cryptocompare.com//media/351513/808.png"
-      />
-    </div>
-    <div
-      className="coin-card"
-    >
-      <h4>
-        Octocoin
-      </h4>
-      <img
-        alt="Octocoin"
-        src="https://www.cryptocompare.com//media/351639/888.png"
-      />
-    </div>
-    <div
-      className="coin-card"
-    >
-      <h4>
-        1337
-      </h4>
-      <img
-        alt="1337"
-        src="https://www.cryptocompare.com//media/350976/1337.png"
-      />
-    </div>
-    <div
-      className="coin-card"
-    >
-      <h4>
-        2015 coin
-      </h4>
-      <img
-        alt="2015 coin"
-        src="https://www.cryptocompare.com//media/20180/2015.png"
-      />
-    </div>
-    <div
-      className="coin-card"
-    >
-      <h4>
-        Bitcoin
-      </h4>
-      <img
-        alt="Bitcoin"
-        src="https://www.cryptocompare.com//media/19633/btc.png"
-      />
-    </div>
-  </div>
-</div>
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Coins />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          <label
+                    htmlFor="search"
+          >
+                    Search
+                    <input
+                              id="search"
+                              name="search"
+                              onChange={[Function]}
+                              placeholder="Type to search"
+                              type="text"
+                              value=""
+                    />
+          </label>
+</div>,
+        <div
+          className="coin-list"
+>
+          <CoinCard
+                    coin={
+                              Object {
+                                        "Algorithm": "Scrypt",
+                                        "BuiltOn": "N/A",
+                                        "CoinName": "42 Coin",
+                                        "FullName": "42 Coin (42)",
+                                        "FullyPremined": "0",
+                                        "Id": "4321",
+                                        "ImageUrl": "/media/12318415/42.png",
+                                        "IsTrading": true,
+                                        "Name": "42",
+                                        "PreMinedValue": "N/A",
+                                        "ProofType": "PoW/PoS",
+                                        "SmartContractAddress": "N/A",
+                                        "SortOrder": "34",
+                                        "Sponsored": false,
+                                        "Symbol": "42",
+                                        "TotalCoinSupply": "42",
+                                        "TotalCoinsFreeFloat": "N/A",
+                                        "Url": "/coins/42/overview",
+                                      }
+                    }
+          />
+          <CoinCard
+                    coin={
+                              Object {
+                                        "Algorithm": "N/A",
+                                        "BuiltOn": "7605",
+                                        "CoinName": "300 token",
+                                        "FullName": "300 token (300)",
+                                        "FullyPremined": "0",
+                                        "Id": "749869",
+                                        "ImageUrl": "/media/27010595/300.png",
+                                        "IsTrading": true,
+                                        "Name": "300",
+                                        "PreMinedValue": "N/A",
+                                        "ProofType": "N/A",
+                                        "SmartContractAddress": "0xaec98a708810414878c3bcdf46aad31ded4a4557",
+                                        "SortOrder": "2212",
+                                        "Sponsored": false,
+                                        "Symbol": "300",
+                                        "TotalCoinSupply": "300",
+                                        "TotalCoinsFreeFloat": "N/A",
+                                        "Url": "/coins/300/overview",
+                                      }
+                    }
+          />
+          <CoinCard
+                    coin={
+                              Object {
+                                        "Algorithm": "X11",
+                                        "BuiltOn": "N/A",
+                                        "CoinName": "365Coin",
+                                        "FullName": "365Coin (365)",
+                                        "FullyPremined": "0",
+                                        "Id": "33639",
+                                        "ImageUrl": "/media/352070/365.png",
+                                        "IsTrading": true,
+                                        "Name": "365",
+                                        "PreMinedValue": "N/A",
+                                        "ProofType": "PoW/PoS",
+                                        "SmartContractAddress": "N/A",
+                                        "SortOrder": "916",
+                                        "Sponsored": false,
+                                        "Symbol": "365",
+                                        "TotalCoinSupply": "2300000000",
+                                        "TotalCoinsFreeFloat": "N/A",
+                                        "Url": "/coins/365/overview",
+                                      }
+                    }
+          />
+          <CoinCard
+                    coin={
+                              Object {
+                                        "Algorithm": "Scrypt",
+                                        "BuiltOn": "N/A",
+                                        "CoinName": "404Coin",
+                                        "FullName": "404Coin (404)",
+                                        "FullyPremined": "0",
+                                        "Id": "21227",
+                                        "ImageUrl": "/media/351001/404.png",
+                                        "IsTrading": true,
+                                        "Name": "404",
+                                        "PreMinedValue": "N/A",
+                                        "ProofType": "PoW/PoS",
+                                        "SmartContractAddress": "N/A",
+                                        "SortOrder": "602",
+                                        "Sponsored": false,
+                                        "Symbol": "404",
+                                        "TotalCoinSupply": "532000000",
+                                        "TotalCoinsFreeFloat": "N/A",
+                                        "Url": "/coins/404/overview",
+                                      }
+                    }
+          />
+          <CoinCard
+                    coin={
+                              Object {
+                                        "Algorithm": "SHA256",
+                                        "BuiltOn": "N/A",
+                                        "CoinName": "SixEleven",
+                                        "FullName": "SixEleven (611)",
+                                        "FullyPremined": "0",
+                                        "Id": "20909",
+                                        "ImageUrl": "/media/350985/611.png",
+                                        "IsTrading": true,
+                                        "Name": "611",
+                                        "PreMinedValue": "N/A",
+                                        "ProofType": "PoW",
+                                        "SmartContractAddress": "N/A",
+                                        "SortOrder": "586",
+                                        "Sponsored": false,
+                                        "Symbol": "611",
+                                        "TotalCoinSupply": "611000",
+                                        "TotalCoinsFreeFloat": "N/A",
+                                        "Url": "/coins/611/overview",
+                                      }
+                    }
+          />
+          <CoinCard
+                    coin={
+                              Object {
+                                        "Algorithm": "SHA256",
+                                        "BuiltOn": "N/A",
+                                        "CoinName": "808",
+                                        "FullName": "808 (808)",
+                                        "FullyPremined": "0",
+                                        "Id": "28223",
+                                        "ImageUrl": "/media/351513/808.png",
+                                        "IsTrading": true,
+                                        "Name": "808",
+                                        "PreMinedValue": "N/A",
+                                        "ProofType": "PoW/PoS",
+                                        "SmartContractAddress": "N/A",
+                                        "SortOrder": "750",
+                                        "Sponsored": false,
+                                        "Symbol": "808",
+                                        "TotalCoinSupply": "N/A",
+                                        "TotalCoinsFreeFloat": "N/A",
+                                        "Url": "/coins/808/overview",
+                                      }
+                    }
+          />
+          <CoinCard
+                    coin={
+                              Object {
+                                        "Algorithm": "N/A",
+                                        "BuiltOn": "N/A",
+                                        "CoinName": "Octocoin",
+                                        "FullName": "Octocoin (888)",
+                                        "FullyPremined": "0",
+                                        "Id": "29462",
+                                        "ImageUrl": "/media/351639/888.png",
+                                        "IsTrading": true,
+                                        "Name": "888",
+                                        "PreMinedValue": "N/A",
+                                        "ProofType": "PoW",
+                                        "SmartContractAddress": "N/A",
+                                        "SortOrder": "811",
+                                        "Sponsored": false,
+                                        "Symbol": "888",
+                                        "TotalCoinSupply": "135776563",
+                                        "TotalCoinsFreeFloat": "N/A",
+                                        "Url": "/coins/888/overview",
+                                      }
+                    }
+          />
+          <CoinCard
+                    coin={
+                              Object {
+                                        "Algorithm": "X13",
+                                        "BuiltOn": "N/A",
+                                        "CoinName": "1337",
+                                        "FullName": "1337 (1337)",
+                                        "FullyPremined": "0",
+                                        "Id": "20824",
+                                        "ImageUrl": "/media/350976/1337.png",
+                                        "IsTrading": true,
+                                        "Name": "1337",
+                                        "PreMinedValue": "N/A",
+                                        "ProofType": "PoW/PoS",
+                                        "SmartContractAddress": "N/A",
+                                        "SortOrder": "577",
+                                        "Sponsored": false,
+                                        "Symbol": "1337",
+                                        "TotalCoinSupply": "314159265359",
+                                        "TotalCoinsFreeFloat": "N/A",
+                                        "Url": "/coins/1337/overview",
+                                      }
+                    }
+          />
+          <CoinCard
+                    coin={
+                              Object {
+                                        "Algorithm": "X11",
+                                        "BuiltOn": "N/A",
+                                        "CoinName": "2015 coin",
+                                        "FullName": "2015 coin (2015)",
+                                        "FullyPremined": "0",
+                                        "Id": "3744",
+                                        "ImageUrl": "/media/20180/2015.png",
+                                        "IsTrading": true,
+                                        "Name": "2015",
+                                        "PreMinedValue": "N/A",
+                                        "ProofType": "PoW/PoS",
+                                        "SmartContractAddress": "N/A",
+                                        "SortOrder": "33",
+                                        "Sponsored": false,
+                                        "Symbol": "2015",
+                                        "TotalCoinSupply": "0",
+                                        "TotalCoinsFreeFloat": "N/A",
+                                        "Url": "/coins/2015/overview",
+                                      }
+                    }
+          />
+          <CoinCard
+                    coin={
+                              Object {
+                                        "Algorithm": "SHA256",
+                                        "BuiltOn": "N/A",
+                                        "CoinName": "Bitcoin",
+                                        "FullName": "Bitcoin (BTC)",
+                                        "FullyPremined": "0",
+                                        "Id": "1182",
+                                        "ImageUrl": "/media/19633/btc.png",
+                                        "IsTrading": true,
+                                        "Name": "BTC",
+                                        "PreMinedValue": "N/A",
+                                        "ProofType": "PoW",
+                                        "SmartContractAddress": "N/A",
+                                        "SortOrder": "1",
+                                        "Sponsored": false,
+                                        "Symbol": "BTC",
+                                        "TotalCoinSupply": "21000000",
+                                        "TotalCoinsFreeFloat": "N/A",
+                                        "Url": "/coins/btc/overview",
+                                      }
+                    }
+          />
+</div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <label
+            htmlFor="search"
+>
+            Search
+            <input
+                        id="search"
+                        name="search"
+                        onChange={[Function]}
+                        placeholder="Type to search"
+                        type="text"
+                        value=""
+            />
+</label>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Search",
+              <input
+                id="search"
+                name="search"
+                onChange={[Function]}
+                placeholder="Type to search"
+                type="text"
+                value=""
+/>,
+            ],
+            "htmlFor": "search",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Search",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "search",
+                "name": "search",
+                "onChange": [Function],
+                "placeholder": "Type to search",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "label",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <CoinCard
+              coin={
+                            Object {
+                                          "Algorithm": "Scrypt",
+                                          "BuiltOn": "N/A",
+                                          "CoinName": "42 Coin",
+                                          "FullName": "42 Coin (42)",
+                                          "FullyPremined": "0",
+                                          "Id": "4321",
+                                          "ImageUrl": "/media/12318415/42.png",
+                                          "IsTrading": true,
+                                          "Name": "42",
+                                          "PreMinedValue": "N/A",
+                                          "ProofType": "PoW/PoS",
+                                          "SmartContractAddress": "N/A",
+                                          "SortOrder": "34",
+                                          "Sponsored": false,
+                                          "Symbol": "42",
+                                          "TotalCoinSupply": "42",
+                                          "TotalCoinsFreeFloat": "N/A",
+                                          "Url": "/coins/42/overview",
+                                        }
+              }
+/>,
+            <CoinCard
+              coin={
+                            Object {
+                                          "Algorithm": "N/A",
+                                          "BuiltOn": "7605",
+                                          "CoinName": "300 token",
+                                          "FullName": "300 token (300)",
+                                          "FullyPremined": "0",
+                                          "Id": "749869",
+                                          "ImageUrl": "/media/27010595/300.png",
+                                          "IsTrading": true,
+                                          "Name": "300",
+                                          "PreMinedValue": "N/A",
+                                          "ProofType": "N/A",
+                                          "SmartContractAddress": "0xaec98a708810414878c3bcdf46aad31ded4a4557",
+                                          "SortOrder": "2212",
+                                          "Sponsored": false,
+                                          "Symbol": "300",
+                                          "TotalCoinSupply": "300",
+                                          "TotalCoinsFreeFloat": "N/A",
+                                          "Url": "/coins/300/overview",
+                                        }
+              }
+/>,
+            <CoinCard
+              coin={
+                            Object {
+                                          "Algorithm": "X11",
+                                          "BuiltOn": "N/A",
+                                          "CoinName": "365Coin",
+                                          "FullName": "365Coin (365)",
+                                          "FullyPremined": "0",
+                                          "Id": "33639",
+                                          "ImageUrl": "/media/352070/365.png",
+                                          "IsTrading": true,
+                                          "Name": "365",
+                                          "PreMinedValue": "N/A",
+                                          "ProofType": "PoW/PoS",
+                                          "SmartContractAddress": "N/A",
+                                          "SortOrder": "916",
+                                          "Sponsored": false,
+                                          "Symbol": "365",
+                                          "TotalCoinSupply": "2300000000",
+                                          "TotalCoinsFreeFloat": "N/A",
+                                          "Url": "/coins/365/overview",
+                                        }
+              }
+/>,
+            <CoinCard
+              coin={
+                            Object {
+                                          "Algorithm": "Scrypt",
+                                          "BuiltOn": "N/A",
+                                          "CoinName": "404Coin",
+                                          "FullName": "404Coin (404)",
+                                          "FullyPremined": "0",
+                                          "Id": "21227",
+                                          "ImageUrl": "/media/351001/404.png",
+                                          "IsTrading": true,
+                                          "Name": "404",
+                                          "PreMinedValue": "N/A",
+                                          "ProofType": "PoW/PoS",
+                                          "SmartContractAddress": "N/A",
+                                          "SortOrder": "602",
+                                          "Sponsored": false,
+                                          "Symbol": "404",
+                                          "TotalCoinSupply": "532000000",
+                                          "TotalCoinsFreeFloat": "N/A",
+                                          "Url": "/coins/404/overview",
+                                        }
+              }
+/>,
+            <CoinCard
+              coin={
+                            Object {
+                                          "Algorithm": "SHA256",
+                                          "BuiltOn": "N/A",
+                                          "CoinName": "SixEleven",
+                                          "FullName": "SixEleven (611)",
+                                          "FullyPremined": "0",
+                                          "Id": "20909",
+                                          "ImageUrl": "/media/350985/611.png",
+                                          "IsTrading": true,
+                                          "Name": "611",
+                                          "PreMinedValue": "N/A",
+                                          "ProofType": "PoW",
+                                          "SmartContractAddress": "N/A",
+                                          "SortOrder": "586",
+                                          "Sponsored": false,
+                                          "Symbol": "611",
+                                          "TotalCoinSupply": "611000",
+                                          "TotalCoinsFreeFloat": "N/A",
+                                          "Url": "/coins/611/overview",
+                                        }
+              }
+/>,
+            <CoinCard
+              coin={
+                            Object {
+                                          "Algorithm": "SHA256",
+                                          "BuiltOn": "N/A",
+                                          "CoinName": "808",
+                                          "FullName": "808 (808)",
+                                          "FullyPremined": "0",
+                                          "Id": "28223",
+                                          "ImageUrl": "/media/351513/808.png",
+                                          "IsTrading": true,
+                                          "Name": "808",
+                                          "PreMinedValue": "N/A",
+                                          "ProofType": "PoW/PoS",
+                                          "SmartContractAddress": "N/A",
+                                          "SortOrder": "750",
+                                          "Sponsored": false,
+                                          "Symbol": "808",
+                                          "TotalCoinSupply": "N/A",
+                                          "TotalCoinsFreeFloat": "N/A",
+                                          "Url": "/coins/808/overview",
+                                        }
+              }
+/>,
+            <CoinCard
+              coin={
+                            Object {
+                                          "Algorithm": "N/A",
+                                          "BuiltOn": "N/A",
+                                          "CoinName": "Octocoin",
+                                          "FullName": "Octocoin (888)",
+                                          "FullyPremined": "0",
+                                          "Id": "29462",
+                                          "ImageUrl": "/media/351639/888.png",
+                                          "IsTrading": true,
+                                          "Name": "888",
+                                          "PreMinedValue": "N/A",
+                                          "ProofType": "PoW",
+                                          "SmartContractAddress": "N/A",
+                                          "SortOrder": "811",
+                                          "Sponsored": false,
+                                          "Symbol": "888",
+                                          "TotalCoinSupply": "135776563",
+                                          "TotalCoinsFreeFloat": "N/A",
+                                          "Url": "/coins/888/overview",
+                                        }
+              }
+/>,
+            <CoinCard
+              coin={
+                            Object {
+                                          "Algorithm": "X13",
+                                          "BuiltOn": "N/A",
+                                          "CoinName": "1337",
+                                          "FullName": "1337 (1337)",
+                                          "FullyPremined": "0",
+                                          "Id": "20824",
+                                          "ImageUrl": "/media/350976/1337.png",
+                                          "IsTrading": true,
+                                          "Name": "1337",
+                                          "PreMinedValue": "N/A",
+                                          "ProofType": "PoW/PoS",
+                                          "SmartContractAddress": "N/A",
+                                          "SortOrder": "577",
+                                          "Sponsored": false,
+                                          "Symbol": "1337",
+                                          "TotalCoinSupply": "314159265359",
+                                          "TotalCoinsFreeFloat": "N/A",
+                                          "Url": "/coins/1337/overview",
+                                        }
+              }
+/>,
+            <CoinCard
+              coin={
+                            Object {
+                                          "Algorithm": "X11",
+                                          "BuiltOn": "N/A",
+                                          "CoinName": "2015 coin",
+                                          "FullName": "2015 coin (2015)",
+                                          "FullyPremined": "0",
+                                          "Id": "3744",
+                                          "ImageUrl": "/media/20180/2015.png",
+                                          "IsTrading": true,
+                                          "Name": "2015",
+                                          "PreMinedValue": "N/A",
+                                          "ProofType": "PoW/PoS",
+                                          "SmartContractAddress": "N/A",
+                                          "SortOrder": "33",
+                                          "Sponsored": false,
+                                          "Symbol": "2015",
+                                          "TotalCoinSupply": "0",
+                                          "TotalCoinsFreeFloat": "N/A",
+                                          "Url": "/coins/2015/overview",
+                                        }
+              }
+/>,
+            <CoinCard
+              coin={
+                            Object {
+                                          "Algorithm": "SHA256",
+                                          "BuiltOn": "N/A",
+                                          "CoinName": "Bitcoin",
+                                          "FullName": "Bitcoin (BTC)",
+                                          "FullyPremined": "0",
+                                          "Id": "1182",
+                                          "ImageUrl": "/media/19633/btc.png",
+                                          "IsTrading": true,
+                                          "Name": "BTC",
+                                          "PreMinedValue": "N/A",
+                                          "ProofType": "PoW",
+                                          "SmartContractAddress": "N/A",
+                                          "SortOrder": "1",
+                                          "Sponsored": false,
+                                          "Symbol": "BTC",
+                                          "TotalCoinSupply": "21000000",
+                                          "TotalCoinsFreeFloat": "N/A",
+                                          "Url": "/coins/btc/overview",
+                                        }
+              }
+/>,
+          ],
+          "className": "coin-list",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "4321",
+            "nodeType": "function",
+            "props": Object {
+              "coin": Object {
+                "Algorithm": "Scrypt",
+                "BuiltOn": "N/A",
+                "CoinName": "42 Coin",
+                "FullName": "42 Coin (42)",
+                "FullyPremined": "0",
+                "Id": "4321",
+                "ImageUrl": "/media/12318415/42.png",
+                "IsTrading": true,
+                "Name": "42",
+                "PreMinedValue": "N/A",
+                "ProofType": "PoW/PoS",
+                "SmartContractAddress": "N/A",
+                "SortOrder": "34",
+                "Sponsored": false,
+                "Symbol": "42",
+                "TotalCoinSupply": "42",
+                "TotalCoinsFreeFloat": "N/A",
+                "Url": "/coins/42/overview",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "749869",
+            "nodeType": "function",
+            "props": Object {
+              "coin": Object {
+                "Algorithm": "N/A",
+                "BuiltOn": "7605",
+                "CoinName": "300 token",
+                "FullName": "300 token (300)",
+                "FullyPremined": "0",
+                "Id": "749869",
+                "ImageUrl": "/media/27010595/300.png",
+                "IsTrading": true,
+                "Name": "300",
+                "PreMinedValue": "N/A",
+                "ProofType": "N/A",
+                "SmartContractAddress": "0xaec98a708810414878c3bcdf46aad31ded4a4557",
+                "SortOrder": "2212",
+                "Sponsored": false,
+                "Symbol": "300",
+                "TotalCoinSupply": "300",
+                "TotalCoinsFreeFloat": "N/A",
+                "Url": "/coins/300/overview",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "33639",
+            "nodeType": "function",
+            "props": Object {
+              "coin": Object {
+                "Algorithm": "X11",
+                "BuiltOn": "N/A",
+                "CoinName": "365Coin",
+                "FullName": "365Coin (365)",
+                "FullyPremined": "0",
+                "Id": "33639",
+                "ImageUrl": "/media/352070/365.png",
+                "IsTrading": true,
+                "Name": "365",
+                "PreMinedValue": "N/A",
+                "ProofType": "PoW/PoS",
+                "SmartContractAddress": "N/A",
+                "SortOrder": "916",
+                "Sponsored": false,
+                "Symbol": "365",
+                "TotalCoinSupply": "2300000000",
+                "TotalCoinsFreeFloat": "N/A",
+                "Url": "/coins/365/overview",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "21227",
+            "nodeType": "function",
+            "props": Object {
+              "coin": Object {
+                "Algorithm": "Scrypt",
+                "BuiltOn": "N/A",
+                "CoinName": "404Coin",
+                "FullName": "404Coin (404)",
+                "FullyPremined": "0",
+                "Id": "21227",
+                "ImageUrl": "/media/351001/404.png",
+                "IsTrading": true,
+                "Name": "404",
+                "PreMinedValue": "N/A",
+                "ProofType": "PoW/PoS",
+                "SmartContractAddress": "N/A",
+                "SortOrder": "602",
+                "Sponsored": false,
+                "Symbol": "404",
+                "TotalCoinSupply": "532000000",
+                "TotalCoinsFreeFloat": "N/A",
+                "Url": "/coins/404/overview",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "20909",
+            "nodeType": "function",
+            "props": Object {
+              "coin": Object {
+                "Algorithm": "SHA256",
+                "BuiltOn": "N/A",
+                "CoinName": "SixEleven",
+                "FullName": "SixEleven (611)",
+                "FullyPremined": "0",
+                "Id": "20909",
+                "ImageUrl": "/media/350985/611.png",
+                "IsTrading": true,
+                "Name": "611",
+                "PreMinedValue": "N/A",
+                "ProofType": "PoW",
+                "SmartContractAddress": "N/A",
+                "SortOrder": "586",
+                "Sponsored": false,
+                "Symbol": "611",
+                "TotalCoinSupply": "611000",
+                "TotalCoinsFreeFloat": "N/A",
+                "Url": "/coins/611/overview",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "28223",
+            "nodeType": "function",
+            "props": Object {
+              "coin": Object {
+                "Algorithm": "SHA256",
+                "BuiltOn": "N/A",
+                "CoinName": "808",
+                "FullName": "808 (808)",
+                "FullyPremined": "0",
+                "Id": "28223",
+                "ImageUrl": "/media/351513/808.png",
+                "IsTrading": true,
+                "Name": "808",
+                "PreMinedValue": "N/A",
+                "ProofType": "PoW/PoS",
+                "SmartContractAddress": "N/A",
+                "SortOrder": "750",
+                "Sponsored": false,
+                "Symbol": "808",
+                "TotalCoinSupply": "N/A",
+                "TotalCoinsFreeFloat": "N/A",
+                "Url": "/coins/808/overview",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "29462",
+            "nodeType": "function",
+            "props": Object {
+              "coin": Object {
+                "Algorithm": "N/A",
+                "BuiltOn": "N/A",
+                "CoinName": "Octocoin",
+                "FullName": "Octocoin (888)",
+                "FullyPremined": "0",
+                "Id": "29462",
+                "ImageUrl": "/media/351639/888.png",
+                "IsTrading": true,
+                "Name": "888",
+                "PreMinedValue": "N/A",
+                "ProofType": "PoW",
+                "SmartContractAddress": "N/A",
+                "SortOrder": "811",
+                "Sponsored": false,
+                "Symbol": "888",
+                "TotalCoinSupply": "135776563",
+                "TotalCoinsFreeFloat": "N/A",
+                "Url": "/coins/888/overview",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "20824",
+            "nodeType": "function",
+            "props": Object {
+              "coin": Object {
+                "Algorithm": "X13",
+                "BuiltOn": "N/A",
+                "CoinName": "1337",
+                "FullName": "1337 (1337)",
+                "FullyPremined": "0",
+                "Id": "20824",
+                "ImageUrl": "/media/350976/1337.png",
+                "IsTrading": true,
+                "Name": "1337",
+                "PreMinedValue": "N/A",
+                "ProofType": "PoW/PoS",
+                "SmartContractAddress": "N/A",
+                "SortOrder": "577",
+                "Sponsored": false,
+                "Symbol": "1337",
+                "TotalCoinSupply": "314159265359",
+                "TotalCoinsFreeFloat": "N/A",
+                "Url": "/coins/1337/overview",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "3744",
+            "nodeType": "function",
+            "props": Object {
+              "coin": Object {
+                "Algorithm": "X11",
+                "BuiltOn": "N/A",
+                "CoinName": "2015 coin",
+                "FullName": "2015 coin (2015)",
+                "FullyPremined": "0",
+                "Id": "3744",
+                "ImageUrl": "/media/20180/2015.png",
+                "IsTrading": true,
+                "Name": "2015",
+                "PreMinedValue": "N/A",
+                "ProofType": "PoW/PoS",
+                "SmartContractAddress": "N/A",
+                "SortOrder": "33",
+                "Sponsored": false,
+                "Symbol": "2015",
+                "TotalCoinSupply": "0",
+                "TotalCoinsFreeFloat": "N/A",
+                "Url": "/coins/2015/overview",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1182",
+            "nodeType": "function",
+            "props": Object {
+              "coin": Object {
+                "Algorithm": "SHA256",
+                "BuiltOn": "N/A",
+                "CoinName": "Bitcoin",
+                "FullName": "Bitcoin (BTC)",
+                "FullyPremined": "0",
+                "Id": "1182",
+                "ImageUrl": "/media/19633/btc.png",
+                "IsTrading": true,
+                "Name": "BTC",
+                "PreMinedValue": "N/A",
+                "ProofType": "PoW",
+                "SmartContractAddress": "N/A",
+                "SortOrder": "1",
+                "Sponsored": false,
+                "Symbol": "BTC",
+                "TotalCoinSupply": "21000000",
+                "TotalCoinsFreeFloat": "N/A",
+                "Url": "/coins/btc/overview",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <label
+                        htmlFor="search"
+            >
+                        Search
+                        <input
+                                    id="search"
+                                    name="search"
+                                    onChange={[Function]}
+                                    placeholder="Type to search"
+                                    type="text"
+                                    value=""
+                        />
+            </label>
+</div>,
+          <div
+            className="coin-list"
+>
+            <CoinCard
+                        coin={
+                                    Object {
+                                                "Algorithm": "Scrypt",
+                                                "BuiltOn": "N/A",
+                                                "CoinName": "42 Coin",
+                                                "FullName": "42 Coin (42)",
+                                                "FullyPremined": "0",
+                                                "Id": "4321",
+                                                "ImageUrl": "/media/12318415/42.png",
+                                                "IsTrading": true,
+                                                "Name": "42",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "PoW/PoS",
+                                                "SmartContractAddress": "N/A",
+                                                "SortOrder": "34",
+                                                "Sponsored": false,
+                                                "Symbol": "42",
+                                                "TotalCoinSupply": "42",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/42/overview",
+                                              }
+                        }
+            />
+            <CoinCard
+                        coin={
+                                    Object {
+                                                "Algorithm": "N/A",
+                                                "BuiltOn": "7605",
+                                                "CoinName": "300 token",
+                                                "FullName": "300 token (300)",
+                                                "FullyPremined": "0",
+                                                "Id": "749869",
+                                                "ImageUrl": "/media/27010595/300.png",
+                                                "IsTrading": true,
+                                                "Name": "300",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "N/A",
+                                                "SmartContractAddress": "0xaec98a708810414878c3bcdf46aad31ded4a4557",
+                                                "SortOrder": "2212",
+                                                "Sponsored": false,
+                                                "Symbol": "300",
+                                                "TotalCoinSupply": "300",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/300/overview",
+                                              }
+                        }
+            />
+            <CoinCard
+                        coin={
+                                    Object {
+                                                "Algorithm": "X11",
+                                                "BuiltOn": "N/A",
+                                                "CoinName": "365Coin",
+                                                "FullName": "365Coin (365)",
+                                                "FullyPremined": "0",
+                                                "Id": "33639",
+                                                "ImageUrl": "/media/352070/365.png",
+                                                "IsTrading": true,
+                                                "Name": "365",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "PoW/PoS",
+                                                "SmartContractAddress": "N/A",
+                                                "SortOrder": "916",
+                                                "Sponsored": false,
+                                                "Symbol": "365",
+                                                "TotalCoinSupply": "2300000000",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/365/overview",
+                                              }
+                        }
+            />
+            <CoinCard
+                        coin={
+                                    Object {
+                                                "Algorithm": "Scrypt",
+                                                "BuiltOn": "N/A",
+                                                "CoinName": "404Coin",
+                                                "FullName": "404Coin (404)",
+                                                "FullyPremined": "0",
+                                                "Id": "21227",
+                                                "ImageUrl": "/media/351001/404.png",
+                                                "IsTrading": true,
+                                                "Name": "404",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "PoW/PoS",
+                                                "SmartContractAddress": "N/A",
+                                                "SortOrder": "602",
+                                                "Sponsored": false,
+                                                "Symbol": "404",
+                                                "TotalCoinSupply": "532000000",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/404/overview",
+                                              }
+                        }
+            />
+            <CoinCard
+                        coin={
+                                    Object {
+                                                "Algorithm": "SHA256",
+                                                "BuiltOn": "N/A",
+                                                "CoinName": "SixEleven",
+                                                "FullName": "SixEleven (611)",
+                                                "FullyPremined": "0",
+                                                "Id": "20909",
+                                                "ImageUrl": "/media/350985/611.png",
+                                                "IsTrading": true,
+                                                "Name": "611",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "PoW",
+                                                "SmartContractAddress": "N/A",
+                                                "SortOrder": "586",
+                                                "Sponsored": false,
+                                                "Symbol": "611",
+                                                "TotalCoinSupply": "611000",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/611/overview",
+                                              }
+                        }
+            />
+            <CoinCard
+                        coin={
+                                    Object {
+                                                "Algorithm": "SHA256",
+                                                "BuiltOn": "N/A",
+                                                "CoinName": "808",
+                                                "FullName": "808 (808)",
+                                                "FullyPremined": "0",
+                                                "Id": "28223",
+                                                "ImageUrl": "/media/351513/808.png",
+                                                "IsTrading": true,
+                                                "Name": "808",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "PoW/PoS",
+                                                "SmartContractAddress": "N/A",
+                                                "SortOrder": "750",
+                                                "Sponsored": false,
+                                                "Symbol": "808",
+                                                "TotalCoinSupply": "N/A",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/808/overview",
+                                              }
+                        }
+            />
+            <CoinCard
+                        coin={
+                                    Object {
+                                                "Algorithm": "N/A",
+                                                "BuiltOn": "N/A",
+                                                "CoinName": "Octocoin",
+                                                "FullName": "Octocoin (888)",
+                                                "FullyPremined": "0",
+                                                "Id": "29462",
+                                                "ImageUrl": "/media/351639/888.png",
+                                                "IsTrading": true,
+                                                "Name": "888",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "PoW",
+                                                "SmartContractAddress": "N/A",
+                                                "SortOrder": "811",
+                                                "Sponsored": false,
+                                                "Symbol": "888",
+                                                "TotalCoinSupply": "135776563",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/888/overview",
+                                              }
+                        }
+            />
+            <CoinCard
+                        coin={
+                                    Object {
+                                                "Algorithm": "X13",
+                                                "BuiltOn": "N/A",
+                                                "CoinName": "1337",
+                                                "FullName": "1337 (1337)",
+                                                "FullyPremined": "0",
+                                                "Id": "20824",
+                                                "ImageUrl": "/media/350976/1337.png",
+                                                "IsTrading": true,
+                                                "Name": "1337",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "PoW/PoS",
+                                                "SmartContractAddress": "N/A",
+                                                "SortOrder": "577",
+                                                "Sponsored": false,
+                                                "Symbol": "1337",
+                                                "TotalCoinSupply": "314159265359",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/1337/overview",
+                                              }
+                        }
+            />
+            <CoinCard
+                        coin={
+                                    Object {
+                                                "Algorithm": "X11",
+                                                "BuiltOn": "N/A",
+                                                "CoinName": "2015 coin",
+                                                "FullName": "2015 coin (2015)",
+                                                "FullyPremined": "0",
+                                                "Id": "3744",
+                                                "ImageUrl": "/media/20180/2015.png",
+                                                "IsTrading": true,
+                                                "Name": "2015",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "PoW/PoS",
+                                                "SmartContractAddress": "N/A",
+                                                "SortOrder": "33",
+                                                "Sponsored": false,
+                                                "Symbol": "2015",
+                                                "TotalCoinSupply": "0",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/2015/overview",
+                                              }
+                        }
+            />
+            <CoinCard
+                        coin={
+                                    Object {
+                                                "Algorithm": "SHA256",
+                                                "BuiltOn": "N/A",
+                                                "CoinName": "Bitcoin",
+                                                "FullName": "Bitcoin (BTC)",
+                                                "FullyPremined": "0",
+                                                "Id": "1182",
+                                                "ImageUrl": "/media/19633/btc.png",
+                                                "IsTrading": true,
+                                                "Name": "BTC",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "PoW",
+                                                "SmartContractAddress": "N/A",
+                                                "SortOrder": "1",
+                                                "Sponsored": false,
+                                                "Symbol": "BTC",
+                                                "TotalCoinSupply": "21000000",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/btc/overview",
+                                              }
+                        }
+            />
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <label
+              htmlFor="search"
+>
+              Search
+              <input
+                            id="search"
+                            name="search"
+                            onChange={[Function]}
+                            placeholder="Type to search"
+                            type="text"
+                            value=""
+              />
+</label>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Search",
+                <input
+                  id="search"
+                  name="search"
+                  onChange={[Function]}
+                  placeholder="Type to search"
+                  type="text"
+                  value=""
+/>,
+              ],
+              "htmlFor": "search",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Search",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "id": "search",
+                  "name": "search",
+                  "onChange": [Function],
+                  "placeholder": "Type to search",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "label",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <CoinCard
+                coin={
+                                Object {
+                                                "Algorithm": "Scrypt",
+                                                "BuiltOn": "N/A",
+                                                "CoinName": "42 Coin",
+                                                "FullName": "42 Coin (42)",
+                                                "FullyPremined": "0",
+                                                "Id": "4321",
+                                                "ImageUrl": "/media/12318415/42.png",
+                                                "IsTrading": true,
+                                                "Name": "42",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "PoW/PoS",
+                                                "SmartContractAddress": "N/A",
+                                                "SortOrder": "34",
+                                                "Sponsored": false,
+                                                "Symbol": "42",
+                                                "TotalCoinSupply": "42",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/42/overview",
+                                              }
+                }
+/>,
+              <CoinCard
+                coin={
+                                Object {
+                                                "Algorithm": "N/A",
+                                                "BuiltOn": "7605",
+                                                "CoinName": "300 token",
+                                                "FullName": "300 token (300)",
+                                                "FullyPremined": "0",
+                                                "Id": "749869",
+                                                "ImageUrl": "/media/27010595/300.png",
+                                                "IsTrading": true,
+                                                "Name": "300",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "N/A",
+                                                "SmartContractAddress": "0xaec98a708810414878c3bcdf46aad31ded4a4557",
+                                                "SortOrder": "2212",
+                                                "Sponsored": false,
+                                                "Symbol": "300",
+                                                "TotalCoinSupply": "300",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/300/overview",
+                                              }
+                }
+/>,
+              <CoinCard
+                coin={
+                                Object {
+                                                "Algorithm": "X11",
+                                                "BuiltOn": "N/A",
+                                                "CoinName": "365Coin",
+                                                "FullName": "365Coin (365)",
+                                                "FullyPremined": "0",
+                                                "Id": "33639",
+                                                "ImageUrl": "/media/352070/365.png",
+                                                "IsTrading": true,
+                                                "Name": "365",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "PoW/PoS",
+                                                "SmartContractAddress": "N/A",
+                                                "SortOrder": "916",
+                                                "Sponsored": false,
+                                                "Symbol": "365",
+                                                "TotalCoinSupply": "2300000000",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/365/overview",
+                                              }
+                }
+/>,
+              <CoinCard
+                coin={
+                                Object {
+                                                "Algorithm": "Scrypt",
+                                                "BuiltOn": "N/A",
+                                                "CoinName": "404Coin",
+                                                "FullName": "404Coin (404)",
+                                                "FullyPremined": "0",
+                                                "Id": "21227",
+                                                "ImageUrl": "/media/351001/404.png",
+                                                "IsTrading": true,
+                                                "Name": "404",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "PoW/PoS",
+                                                "SmartContractAddress": "N/A",
+                                                "SortOrder": "602",
+                                                "Sponsored": false,
+                                                "Symbol": "404",
+                                                "TotalCoinSupply": "532000000",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/404/overview",
+                                              }
+                }
+/>,
+              <CoinCard
+                coin={
+                                Object {
+                                                "Algorithm": "SHA256",
+                                                "BuiltOn": "N/A",
+                                                "CoinName": "SixEleven",
+                                                "FullName": "SixEleven (611)",
+                                                "FullyPremined": "0",
+                                                "Id": "20909",
+                                                "ImageUrl": "/media/350985/611.png",
+                                                "IsTrading": true,
+                                                "Name": "611",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "PoW",
+                                                "SmartContractAddress": "N/A",
+                                                "SortOrder": "586",
+                                                "Sponsored": false,
+                                                "Symbol": "611",
+                                                "TotalCoinSupply": "611000",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/611/overview",
+                                              }
+                }
+/>,
+              <CoinCard
+                coin={
+                                Object {
+                                                "Algorithm": "SHA256",
+                                                "BuiltOn": "N/A",
+                                                "CoinName": "808",
+                                                "FullName": "808 (808)",
+                                                "FullyPremined": "0",
+                                                "Id": "28223",
+                                                "ImageUrl": "/media/351513/808.png",
+                                                "IsTrading": true,
+                                                "Name": "808",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "PoW/PoS",
+                                                "SmartContractAddress": "N/A",
+                                                "SortOrder": "750",
+                                                "Sponsored": false,
+                                                "Symbol": "808",
+                                                "TotalCoinSupply": "N/A",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/808/overview",
+                                              }
+                }
+/>,
+              <CoinCard
+                coin={
+                                Object {
+                                                "Algorithm": "N/A",
+                                                "BuiltOn": "N/A",
+                                                "CoinName": "Octocoin",
+                                                "FullName": "Octocoin (888)",
+                                                "FullyPremined": "0",
+                                                "Id": "29462",
+                                                "ImageUrl": "/media/351639/888.png",
+                                                "IsTrading": true,
+                                                "Name": "888",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "PoW",
+                                                "SmartContractAddress": "N/A",
+                                                "SortOrder": "811",
+                                                "Sponsored": false,
+                                                "Symbol": "888",
+                                                "TotalCoinSupply": "135776563",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/888/overview",
+                                              }
+                }
+/>,
+              <CoinCard
+                coin={
+                                Object {
+                                                "Algorithm": "X13",
+                                                "BuiltOn": "N/A",
+                                                "CoinName": "1337",
+                                                "FullName": "1337 (1337)",
+                                                "FullyPremined": "0",
+                                                "Id": "20824",
+                                                "ImageUrl": "/media/350976/1337.png",
+                                                "IsTrading": true,
+                                                "Name": "1337",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "PoW/PoS",
+                                                "SmartContractAddress": "N/A",
+                                                "SortOrder": "577",
+                                                "Sponsored": false,
+                                                "Symbol": "1337",
+                                                "TotalCoinSupply": "314159265359",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/1337/overview",
+                                              }
+                }
+/>,
+              <CoinCard
+                coin={
+                                Object {
+                                                "Algorithm": "X11",
+                                                "BuiltOn": "N/A",
+                                                "CoinName": "2015 coin",
+                                                "FullName": "2015 coin (2015)",
+                                                "FullyPremined": "0",
+                                                "Id": "3744",
+                                                "ImageUrl": "/media/20180/2015.png",
+                                                "IsTrading": true,
+                                                "Name": "2015",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "PoW/PoS",
+                                                "SmartContractAddress": "N/A",
+                                                "SortOrder": "33",
+                                                "Sponsored": false,
+                                                "Symbol": "2015",
+                                                "TotalCoinSupply": "0",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/2015/overview",
+                                              }
+                }
+/>,
+              <CoinCard
+                coin={
+                                Object {
+                                                "Algorithm": "SHA256",
+                                                "BuiltOn": "N/A",
+                                                "CoinName": "Bitcoin",
+                                                "FullName": "Bitcoin (BTC)",
+                                                "FullyPremined": "0",
+                                                "Id": "1182",
+                                                "ImageUrl": "/media/19633/btc.png",
+                                                "IsTrading": true,
+                                                "Name": "BTC",
+                                                "PreMinedValue": "N/A",
+                                                "ProofType": "PoW",
+                                                "SmartContractAddress": "N/A",
+                                                "SortOrder": "1",
+                                                "Sponsored": false,
+                                                "Symbol": "BTC",
+                                                "TotalCoinSupply": "21000000",
+                                                "TotalCoinsFreeFloat": "N/A",
+                                                "Url": "/coins/btc/overview",
+                                              }
+                }
+/>,
+            ],
+            "className": "coin-list",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "4321",
+              "nodeType": "function",
+              "props": Object {
+                "coin": Object {
+                  "Algorithm": "Scrypt",
+                  "BuiltOn": "N/A",
+                  "CoinName": "42 Coin",
+                  "FullName": "42 Coin (42)",
+                  "FullyPremined": "0",
+                  "Id": "4321",
+                  "ImageUrl": "/media/12318415/42.png",
+                  "IsTrading": true,
+                  "Name": "42",
+                  "PreMinedValue": "N/A",
+                  "ProofType": "PoW/PoS",
+                  "SmartContractAddress": "N/A",
+                  "SortOrder": "34",
+                  "Sponsored": false,
+                  "Symbol": "42",
+                  "TotalCoinSupply": "42",
+                  "TotalCoinsFreeFloat": "N/A",
+                  "Url": "/coins/42/overview",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "749869",
+              "nodeType": "function",
+              "props": Object {
+                "coin": Object {
+                  "Algorithm": "N/A",
+                  "BuiltOn": "7605",
+                  "CoinName": "300 token",
+                  "FullName": "300 token (300)",
+                  "FullyPremined": "0",
+                  "Id": "749869",
+                  "ImageUrl": "/media/27010595/300.png",
+                  "IsTrading": true,
+                  "Name": "300",
+                  "PreMinedValue": "N/A",
+                  "ProofType": "N/A",
+                  "SmartContractAddress": "0xaec98a708810414878c3bcdf46aad31ded4a4557",
+                  "SortOrder": "2212",
+                  "Sponsored": false,
+                  "Symbol": "300",
+                  "TotalCoinSupply": "300",
+                  "TotalCoinsFreeFloat": "N/A",
+                  "Url": "/coins/300/overview",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "33639",
+              "nodeType": "function",
+              "props": Object {
+                "coin": Object {
+                  "Algorithm": "X11",
+                  "BuiltOn": "N/A",
+                  "CoinName": "365Coin",
+                  "FullName": "365Coin (365)",
+                  "FullyPremined": "0",
+                  "Id": "33639",
+                  "ImageUrl": "/media/352070/365.png",
+                  "IsTrading": true,
+                  "Name": "365",
+                  "PreMinedValue": "N/A",
+                  "ProofType": "PoW/PoS",
+                  "SmartContractAddress": "N/A",
+                  "SortOrder": "916",
+                  "Sponsored": false,
+                  "Symbol": "365",
+                  "TotalCoinSupply": "2300000000",
+                  "TotalCoinsFreeFloat": "N/A",
+                  "Url": "/coins/365/overview",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "21227",
+              "nodeType": "function",
+              "props": Object {
+                "coin": Object {
+                  "Algorithm": "Scrypt",
+                  "BuiltOn": "N/A",
+                  "CoinName": "404Coin",
+                  "FullName": "404Coin (404)",
+                  "FullyPremined": "0",
+                  "Id": "21227",
+                  "ImageUrl": "/media/351001/404.png",
+                  "IsTrading": true,
+                  "Name": "404",
+                  "PreMinedValue": "N/A",
+                  "ProofType": "PoW/PoS",
+                  "SmartContractAddress": "N/A",
+                  "SortOrder": "602",
+                  "Sponsored": false,
+                  "Symbol": "404",
+                  "TotalCoinSupply": "532000000",
+                  "TotalCoinsFreeFloat": "N/A",
+                  "Url": "/coins/404/overview",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "20909",
+              "nodeType": "function",
+              "props": Object {
+                "coin": Object {
+                  "Algorithm": "SHA256",
+                  "BuiltOn": "N/A",
+                  "CoinName": "SixEleven",
+                  "FullName": "SixEleven (611)",
+                  "FullyPremined": "0",
+                  "Id": "20909",
+                  "ImageUrl": "/media/350985/611.png",
+                  "IsTrading": true,
+                  "Name": "611",
+                  "PreMinedValue": "N/A",
+                  "ProofType": "PoW",
+                  "SmartContractAddress": "N/A",
+                  "SortOrder": "586",
+                  "Sponsored": false,
+                  "Symbol": "611",
+                  "TotalCoinSupply": "611000",
+                  "TotalCoinsFreeFloat": "N/A",
+                  "Url": "/coins/611/overview",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "28223",
+              "nodeType": "function",
+              "props": Object {
+                "coin": Object {
+                  "Algorithm": "SHA256",
+                  "BuiltOn": "N/A",
+                  "CoinName": "808",
+                  "FullName": "808 (808)",
+                  "FullyPremined": "0",
+                  "Id": "28223",
+                  "ImageUrl": "/media/351513/808.png",
+                  "IsTrading": true,
+                  "Name": "808",
+                  "PreMinedValue": "N/A",
+                  "ProofType": "PoW/PoS",
+                  "SmartContractAddress": "N/A",
+                  "SortOrder": "750",
+                  "Sponsored": false,
+                  "Symbol": "808",
+                  "TotalCoinSupply": "N/A",
+                  "TotalCoinsFreeFloat": "N/A",
+                  "Url": "/coins/808/overview",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "29462",
+              "nodeType": "function",
+              "props": Object {
+                "coin": Object {
+                  "Algorithm": "N/A",
+                  "BuiltOn": "N/A",
+                  "CoinName": "Octocoin",
+                  "FullName": "Octocoin (888)",
+                  "FullyPremined": "0",
+                  "Id": "29462",
+                  "ImageUrl": "/media/351639/888.png",
+                  "IsTrading": true,
+                  "Name": "888",
+                  "PreMinedValue": "N/A",
+                  "ProofType": "PoW",
+                  "SmartContractAddress": "N/A",
+                  "SortOrder": "811",
+                  "Sponsored": false,
+                  "Symbol": "888",
+                  "TotalCoinSupply": "135776563",
+                  "TotalCoinsFreeFloat": "N/A",
+                  "Url": "/coins/888/overview",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "20824",
+              "nodeType": "function",
+              "props": Object {
+                "coin": Object {
+                  "Algorithm": "X13",
+                  "BuiltOn": "N/A",
+                  "CoinName": "1337",
+                  "FullName": "1337 (1337)",
+                  "FullyPremined": "0",
+                  "Id": "20824",
+                  "ImageUrl": "/media/350976/1337.png",
+                  "IsTrading": true,
+                  "Name": "1337",
+                  "PreMinedValue": "N/A",
+                  "ProofType": "PoW/PoS",
+                  "SmartContractAddress": "N/A",
+                  "SortOrder": "577",
+                  "Sponsored": false,
+                  "Symbol": "1337",
+                  "TotalCoinSupply": "314159265359",
+                  "TotalCoinsFreeFloat": "N/A",
+                  "Url": "/coins/1337/overview",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "3744",
+              "nodeType": "function",
+              "props": Object {
+                "coin": Object {
+                  "Algorithm": "X11",
+                  "BuiltOn": "N/A",
+                  "CoinName": "2015 coin",
+                  "FullName": "2015 coin (2015)",
+                  "FullyPremined": "0",
+                  "Id": "3744",
+                  "ImageUrl": "/media/20180/2015.png",
+                  "IsTrading": true,
+                  "Name": "2015",
+                  "PreMinedValue": "N/A",
+                  "ProofType": "PoW/PoS",
+                  "SmartContractAddress": "N/A",
+                  "SortOrder": "33",
+                  "Sponsored": false,
+                  "Symbol": "2015",
+                  "TotalCoinSupply": "0",
+                  "TotalCoinsFreeFloat": "N/A",
+                  "Url": "/coins/2015/overview",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1182",
+              "nodeType": "function",
+              "props": Object {
+                "coin": Object {
+                  "Algorithm": "SHA256",
+                  "BuiltOn": "N/A",
+                  "CoinName": "Bitcoin",
+                  "FullName": "Bitcoin (BTC)",
+                  "FullyPremined": "0",
+                  "Id": "1182",
+                  "ImageUrl": "/media/19633/btc.png",
+                  "IsTrading": true,
+                  "Name": "BTC",
+                  "PreMinedValue": "N/A",
+                  "ProofType": "PoW",
+                  "SmartContractAddress": "N/A",
+                  "SortOrder": "1",
+                  "Sponsored": false,
+                  "Symbol": "BTC",
+                  "TotalCoinSupply": "21000000",
+                  "TotalCoinsFreeFloat": "N/A",
+                  "Url": "/coins/btc/overview",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
 `;

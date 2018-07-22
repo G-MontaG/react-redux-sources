@@ -1,9 +1,8 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { shallow } from 'enzyme';
 import Coins from './Coins';
 
 test('Coins render correctly', () => {
-  const component = renderer.create(<Coins />);
-  const tree = component.toJSON();
-  expect(tree).toMatchSnapshot();
+  const component = shallow(<Coins />);
+  expect(component).toMatchSnapshot();
 });
