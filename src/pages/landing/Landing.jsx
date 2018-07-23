@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './Landing.css';
 
 const Landing = (props) => {
-  console.log(props);
   return (
     <React.Fragment>
       <header className="App-header">
