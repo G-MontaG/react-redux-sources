@@ -9,6 +9,22 @@ class Coins extends Component {
     search: '',
   };
 
+  componentDidMount() {
+    console.log('componentDidMount');
+  }
+
+  componentDidUpdate() {
+    console.log('componentDidUpdate');
+  }
+
+  componentWillUnmount() {
+    console.log('componentWillUnmount');
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    return true;
+  }
+
   handleSearchChange = (event) => {
     this.setState({ search: event.target.value });
   };
