@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
-import coinsData from '../../data/coinsList.json';
+import PropTypes from 'prop-types';
 import CoinCard from '../../components/CoinCard';
 import './Coins.css';
 
 class Coins extends Component {
+  propTypes = {
+    coinsList: PropTypes.array.isRequired,
+  };
+
+  defaultProps = {
+    coinsList: [],
+  }
+
   state = {
-    coinsList: Object.keys(coinsData.Data).slice(0, 10).map(key => coinsData.Data[key]),
     search: '',
   };
 
@@ -34,24 +40,12 @@ class Coins extends Component {
     list.filter(coin => coin.CoinName.toLowerCase().includes(searchTerm.toLowerCase()))
   );
 
-  filterListById = (list, id) => (
-    list.find(coin => coin.Id === id)
-  );
-
   render() {
-    const { coinsList, search } = this.state;
-    const { match } = this.props;
+    const { search } = this.state;
+    const { coinsList } = this.props;
 
     return (
       <div>
-        <Switch>
-          <Route
-            path={`${match.path}/:id`}
-            component={props => (
-              <CoinCard {...props} coin={this.filterListById(coinsList, props.match.params.id)} />
-            )}
-          />
-        </Switch>
         <div>
           <label htmlFor="search">
             Search

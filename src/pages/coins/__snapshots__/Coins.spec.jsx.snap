@@ -4,7 +4,212 @@ exports[`Coins render correctly 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Coins />,
+  Symbol(enzyme.__unrendered__): <Coins
+    coinsList={
+        Array [
+            Object {
+              "Algorithm": "Scrypt",
+              "BuiltOn": "N/A",
+              "CoinName": "42 Coin",
+              "FullName": "42 Coin (42)",
+              "FullyPremined": "0",
+              "Id": "4321",
+              "ImageUrl": "/media/12318415/42.png",
+              "IsTrading": true,
+              "Name": "42",
+              "PreMinedValue": "N/A",
+              "ProofType": "PoW/PoS",
+              "SmartContractAddress": "N/A",
+              "SortOrder": "34",
+              "Sponsored": false,
+              "Symbol": "42",
+              "TotalCoinSupply": "42",
+              "TotalCoinsFreeFloat": "N/A",
+              "Url": "/coins/42/overview",
+            },
+            Object {
+              "Algorithm": "N/A",
+              "BuiltOn": "7605",
+              "CoinName": "300 token",
+              "FullName": "300 token (300)",
+              "FullyPremined": "0",
+              "Id": "749869",
+              "ImageUrl": "/media/27010595/300.png",
+              "IsTrading": true,
+              "Name": "300",
+              "PreMinedValue": "N/A",
+              "ProofType": "N/A",
+              "SmartContractAddress": "0xaec98a708810414878c3bcdf46aad31ded4a4557",
+              "SortOrder": "2212",
+              "Sponsored": false,
+              "Symbol": "300",
+              "TotalCoinSupply": "300",
+              "TotalCoinsFreeFloat": "N/A",
+              "Url": "/coins/300/overview",
+            },
+            Object {
+              "Algorithm": "X11",
+              "BuiltOn": "N/A",
+              "CoinName": "365Coin",
+              "FullName": "365Coin (365)",
+              "FullyPremined": "0",
+              "Id": "33639",
+              "ImageUrl": "/media/352070/365.png",
+              "IsTrading": true,
+              "Name": "365",
+              "PreMinedValue": "N/A",
+              "ProofType": "PoW/PoS",
+              "SmartContractAddress": "N/A",
+              "SortOrder": "916",
+              "Sponsored": false,
+              "Symbol": "365",
+              "TotalCoinSupply": "2300000000",
+              "TotalCoinsFreeFloat": "N/A",
+              "Url": "/coins/365/overview",
+            },
+            Object {
+              "Algorithm": "Scrypt",
+              "BuiltOn": "N/A",
+              "CoinName": "404Coin",
+              "FullName": "404Coin (404)",
+              "FullyPremined": "0",
+              "Id": "21227",
+              "ImageUrl": "/media/351001/404.png",
+              "IsTrading": true,
+              "Name": "404",
+              "PreMinedValue": "N/A",
+              "ProofType": "PoW/PoS",
+              "SmartContractAddress": "N/A",
+              "SortOrder": "602",
+              "Sponsored": false,
+              "Symbol": "404",
+              "TotalCoinSupply": "532000000",
+              "TotalCoinsFreeFloat": "N/A",
+              "Url": "/coins/404/overview",
+            },
+            Object {
+              "Algorithm": "SHA256",
+              "BuiltOn": "N/A",
+              "CoinName": "SixEleven",
+              "FullName": "SixEleven (611)",
+              "FullyPremined": "0",
+              "Id": "20909",
+              "ImageUrl": "/media/350985/611.png",
+              "IsTrading": true,
+              "Name": "611",
+              "PreMinedValue": "N/A",
+              "ProofType": "PoW",
+              "SmartContractAddress": "N/A",
+              "SortOrder": "586",
+              "Sponsored": false,
+              "Symbol": "611",
+              "TotalCoinSupply": "611000",
+              "TotalCoinsFreeFloat": "N/A",
+              "Url": "/coins/611/overview",
+            },
+            Object {
+              "Algorithm": "SHA256",
+              "BuiltOn": "N/A",
+              "CoinName": "808",
+              "FullName": "808 (808)",
+              "FullyPremined": "0",
+              "Id": "28223",
+              "ImageUrl": "/media/351513/808.png",
+              "IsTrading": true,
+              "Name": "808",
+              "PreMinedValue": "N/A",
+              "ProofType": "PoW/PoS",
+              "SmartContractAddress": "N/A",
+              "SortOrder": "750",
+              "Sponsored": false,
+              "Symbol": "808",
+              "TotalCoinSupply": "N/A",
+              "TotalCoinsFreeFloat": "N/A",
+              "Url": "/coins/808/overview",
+            },
+            Object {
+              "Algorithm": "N/A",
+              "BuiltOn": "N/A",
+              "CoinName": "Octocoin",
+              "FullName": "Octocoin (888)",
+              "FullyPremined": "0",
+              "Id": "29462",
+              "ImageUrl": "/media/351639/888.png",
+              "IsTrading": true,
+              "Name": "888",
+              "PreMinedValue": "N/A",
+              "ProofType": "PoW",
+              "SmartContractAddress": "N/A",
+              "SortOrder": "811",
+              "Sponsored": false,
+              "Symbol": "888",
+              "TotalCoinSupply": "135776563",
+              "TotalCoinsFreeFloat": "N/A",
+              "Url": "/coins/888/overview",
+            },
+            Object {
+              "Algorithm": "X13",
+              "BuiltOn": "N/A",
+              "CoinName": "1337",
+              "FullName": "1337 (1337)",
+              "FullyPremined": "0",
+              "Id": "20824",
+              "ImageUrl": "/media/350976/1337.png",
+              "IsTrading": true,
+              "Name": "1337",
+              "PreMinedValue": "N/A",
+              "ProofType": "PoW/PoS",
+              "SmartContractAddress": "N/A",
+              "SortOrder": "577",
+              "Sponsored": false,
+              "Symbol": "1337",
+              "TotalCoinSupply": "314159265359",
+              "TotalCoinsFreeFloat": "N/A",
+              "Url": "/coins/1337/overview",
+            },
+            Object {
+              "Algorithm": "X11",
+              "BuiltOn": "N/A",
+              "CoinName": "2015 coin",
+              "FullName": "2015 coin (2015)",
+              "FullyPremined": "0",
+              "Id": "3744",
+              "ImageUrl": "/media/20180/2015.png",
+              "IsTrading": true,
+              "Name": "2015",
+              "PreMinedValue": "N/A",
+              "ProofType": "PoW/PoS",
+              "SmartContractAddress": "N/A",
+              "SortOrder": "33",
+              "Sponsored": false,
+              "Symbol": "2015",
+              "TotalCoinSupply": "0",
+              "TotalCoinsFreeFloat": "N/A",
+              "Url": "/coins/2015/overview",
+            },
+            Object {
+              "Algorithm": "SHA256",
+              "BuiltOn": "N/A",
+              "CoinName": "Bitcoin",
+              "FullName": "Bitcoin (BTC)",
+              "FullyPremined": "0",
+              "Id": "1182",
+              "ImageUrl": "/media/19633/btc.png",
+              "IsTrading": true,
+              "Name": "BTC",
+              "PreMinedValue": "N/A",
+              "ProofType": "PoW",
+              "SmartContractAddress": "N/A",
+              "SortOrder": "1",
+              "Sponsored": false,
+              "Symbol": "BTC",
+              "TotalCoinSupply": "21000000",
+              "TotalCoinsFreeFloat": "N/A",
+              "Url": "/coins/btc/overview",
+            },
+          ]
+    }
+/>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -36,7 +241,7 @@ ShallowWrapper {
         <div
           className="coin-list"
 >
-          <CoinCard
+          <Component
                     coin={
                               Object {
                                         "Algorithm": "Scrypt",
@@ -59,8 +264,9 @@ ShallowWrapper {
                                         "Url": "/coins/42/overview",
                                       }
                     }
+                    search=""
           />
-          <CoinCard
+          <Component
                     coin={
                               Object {
                                         "Algorithm": "N/A",
@@ -83,8 +289,9 @@ ShallowWrapper {
                                         "Url": "/coins/300/overview",
                                       }
                     }
+                    search=""
           />
-          <CoinCard
+          <Component
                     coin={
                               Object {
                                         "Algorithm": "X11",
@@ -107,8 +314,9 @@ ShallowWrapper {
                                         "Url": "/coins/365/overview",
                                       }
                     }
+                    search=""
           />
-          <CoinCard
+          <Component
                     coin={
                               Object {
                                         "Algorithm": "Scrypt",
@@ -131,8 +339,9 @@ ShallowWrapper {
                                         "Url": "/coins/404/overview",
                                       }
                     }
+                    search=""
           />
-          <CoinCard
+          <Component
                     coin={
                               Object {
                                         "Algorithm": "SHA256",
@@ -155,8 +364,9 @@ ShallowWrapper {
                                         "Url": "/coins/611/overview",
                                       }
                     }
+                    search=""
           />
-          <CoinCard
+          <Component
                     coin={
                               Object {
                                         "Algorithm": "SHA256",
@@ -179,8 +389,9 @@ ShallowWrapper {
                                         "Url": "/coins/808/overview",
                                       }
                     }
+                    search=""
           />
-          <CoinCard
+          <Component
                     coin={
                               Object {
                                         "Algorithm": "N/A",
@@ -203,8 +414,9 @@ ShallowWrapper {
                                         "Url": "/coins/888/overview",
                                       }
                     }
+                    search=""
           />
-          <CoinCard
+          <Component
                     coin={
                               Object {
                                         "Algorithm": "X13",
@@ -227,8 +439,9 @@ ShallowWrapper {
                                         "Url": "/coins/1337/overview",
                                       }
                     }
+                    search=""
           />
-          <CoinCard
+          <Component
                     coin={
                               Object {
                                         "Algorithm": "X11",
@@ -251,8 +464,9 @@ ShallowWrapper {
                                         "Url": "/coins/2015/overview",
                                       }
                     }
+                    search=""
           />
-          <CoinCard
+          <Component
                     coin={
                               Object {
                                         "Algorithm": "SHA256",
@@ -275,6 +489,7 @@ ShallowWrapper {
                                         "Url": "/coins/btc/overview",
                                       }
                     }
+                    search=""
           />
 </div>,
       ],
@@ -349,7 +564,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <CoinCard
+            <Component
               coin={
                             Object {
                                           "Algorithm": "Scrypt",
@@ -372,8 +587,9 @@ ShallowWrapper {
                                           "Url": "/coins/42/overview",
                                         }
               }
+              search=""
 />,
-            <CoinCard
+            <Component
               coin={
                             Object {
                                           "Algorithm": "N/A",
@@ -396,8 +612,9 @@ ShallowWrapper {
                                           "Url": "/coins/300/overview",
                                         }
               }
+              search=""
 />,
-            <CoinCard
+            <Component
               coin={
                             Object {
                                           "Algorithm": "X11",
@@ -420,8 +637,9 @@ ShallowWrapper {
                                           "Url": "/coins/365/overview",
                                         }
               }
+              search=""
 />,
-            <CoinCard
+            <Component
               coin={
                             Object {
                                           "Algorithm": "Scrypt",
@@ -444,8 +662,9 @@ ShallowWrapper {
                                           "Url": "/coins/404/overview",
                                         }
               }
+              search=""
 />,
-            <CoinCard
+            <Component
               coin={
                             Object {
                                           "Algorithm": "SHA256",
@@ -468,8 +687,9 @@ ShallowWrapper {
                                           "Url": "/coins/611/overview",
                                         }
               }
+              search=""
 />,
-            <CoinCard
+            <Component
               coin={
                             Object {
                                           "Algorithm": "SHA256",
@@ -492,8 +712,9 @@ ShallowWrapper {
                                           "Url": "/coins/808/overview",
                                         }
               }
+              search=""
 />,
-            <CoinCard
+            <Component
               coin={
                             Object {
                                           "Algorithm": "N/A",
@@ -516,8 +737,9 @@ ShallowWrapper {
                                           "Url": "/coins/888/overview",
                                         }
               }
+              search=""
 />,
-            <CoinCard
+            <Component
               coin={
                             Object {
                                           "Algorithm": "X13",
@@ -540,8 +762,9 @@ ShallowWrapper {
                                           "Url": "/coins/1337/overview",
                                         }
               }
+              search=""
 />,
-            <CoinCard
+            <Component
               coin={
                             Object {
                                           "Algorithm": "X11",
@@ -564,8 +787,9 @@ ShallowWrapper {
                                           "Url": "/coins/2015/overview",
                                         }
               }
+              search=""
 />,
-            <CoinCard
+            <Component
               coin={
                             Object {
                                           "Algorithm": "SHA256",
@@ -588,6 +812,7 @@ ShallowWrapper {
                                           "Url": "/coins/btc/overview",
                                         }
               }
+              search=""
 />,
           ],
           "className": "coin-list",
@@ -597,7 +822,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "4321",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "coin": Object {
                 "Algorithm": "Scrypt",
@@ -619,6 +844,7 @@ ShallowWrapper {
                 "TotalCoinsFreeFloat": "N/A",
                 "Url": "/coins/42/overview",
               },
+              "search": "",
             },
             "ref": null,
             "rendered": null,
@@ -627,7 +853,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "749869",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "coin": Object {
                 "Algorithm": "N/A",
@@ -649,6 +875,7 @@ ShallowWrapper {
                 "TotalCoinsFreeFloat": "N/A",
                 "Url": "/coins/300/overview",
               },
+              "search": "",
             },
             "ref": null,
             "rendered": null,
@@ -657,7 +884,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "33639",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "coin": Object {
                 "Algorithm": "X11",
@@ -679,6 +906,7 @@ ShallowWrapper {
                 "TotalCoinsFreeFloat": "N/A",
                 "Url": "/coins/365/overview",
               },
+              "search": "",
             },
             "ref": null,
             "rendered": null,
@@ -687,7 +915,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "21227",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "coin": Object {
                 "Algorithm": "Scrypt",
@@ -709,6 +937,7 @@ ShallowWrapper {
                 "TotalCoinsFreeFloat": "N/A",
                 "Url": "/coins/404/overview",
               },
+              "search": "",
             },
             "ref": null,
             "rendered": null,
@@ -717,7 +946,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "20909",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "coin": Object {
                 "Algorithm": "SHA256",
@@ -739,6 +968,7 @@ ShallowWrapper {
                 "TotalCoinsFreeFloat": "N/A",
                 "Url": "/coins/611/overview",
               },
+              "search": "",
             },
             "ref": null,
             "rendered": null,
@@ -747,7 +977,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "28223",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "coin": Object {
                 "Algorithm": "SHA256",
@@ -769,6 +999,7 @@ ShallowWrapper {
                 "TotalCoinsFreeFloat": "N/A",
                 "Url": "/coins/808/overview",
               },
+              "search": "",
             },
             "ref": null,
             "rendered": null,
@@ -777,7 +1008,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "29462",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "coin": Object {
                 "Algorithm": "N/A",
@@ -799,6 +1030,7 @@ ShallowWrapper {
                 "TotalCoinsFreeFloat": "N/A",
                 "Url": "/coins/888/overview",
               },
+              "search": "",
             },
             "ref": null,
             "rendered": null,
@@ -807,7 +1039,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "20824",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "coin": Object {
                 "Algorithm": "X13",
@@ -829,6 +1061,7 @@ ShallowWrapper {
                 "TotalCoinsFreeFloat": "N/A",
                 "Url": "/coins/1337/overview",
               },
+              "search": "",
             },
             "ref": null,
             "rendered": null,
@@ -837,7 +1070,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "3744",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "coin": Object {
                 "Algorithm": "X11",
@@ -859,6 +1092,7 @@ ShallowWrapper {
                 "TotalCoinsFreeFloat": "N/A",
                 "Url": "/coins/2015/overview",
               },
+              "search": "",
             },
             "ref": null,
             "rendered": null,
@@ -867,7 +1101,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "1182",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "coin": Object {
                 "Algorithm": "SHA256",
@@ -889,6 +1123,7 @@ ShallowWrapper {
                 "TotalCoinsFreeFloat": "N/A",
                 "Url": "/coins/btc/overview",
               },
+              "search": "",
             },
             "ref": null,
             "rendered": null,
@@ -925,7 +1160,7 @@ ShallowWrapper {
           <div
             className="coin-list"
 >
-            <CoinCard
+            <Component
                         coin={
                                     Object {
                                                 "Algorithm": "Scrypt",
@@ -948,8 +1183,9 @@ ShallowWrapper {
                                                 "Url": "/coins/42/overview",
                                               }
                         }
+                        search=""
             />
-            <CoinCard
+            <Component
                         coin={
                                     Object {
                                                 "Algorithm": "N/A",
@@ -972,8 +1208,9 @@ ShallowWrapper {
                                                 "Url": "/coins/300/overview",
                                               }
                         }
+                        search=""
             />
-            <CoinCard
+            <Component
                         coin={
                                     Object {
                                                 "Algorithm": "X11",
@@ -996,8 +1233,9 @@ ShallowWrapper {
                                                 "Url": "/coins/365/overview",
                                               }
                         }
+                        search=""
             />
-            <CoinCard
+            <Component
                         coin={
                                     Object {
                                                 "Algorithm": "Scrypt",
@@ -1020,8 +1258,9 @@ ShallowWrapper {
                                                 "Url": "/coins/404/overview",
                                               }
                         }
+                        search=""
             />
-            <CoinCard
+            <Component
                         coin={
                                     Object {
                                                 "Algorithm": "SHA256",
@@ -1044,8 +1283,9 @@ ShallowWrapper {
                                                 "Url": "/coins/611/overview",
                                               }
                         }
+                        search=""
             />
-            <CoinCard
+            <Component
                         coin={
                                     Object {
                                                 "Algorithm": "SHA256",
@@ -1068,8 +1308,9 @@ ShallowWrapper {
                                                 "Url": "/coins/808/overview",
                                               }
                         }
+                        search=""
             />
-            <CoinCard
+            <Component
                         coin={
                                     Object {
                                                 "Algorithm": "N/A",
@@ -1092,8 +1333,9 @@ ShallowWrapper {
                                                 "Url": "/coins/888/overview",
                                               }
                         }
+                        search=""
             />
-            <CoinCard
+            <Component
                         coin={
                                     Object {
                                                 "Algorithm": "X13",
@@ -1116,8 +1358,9 @@ ShallowWrapper {
                                                 "Url": "/coins/1337/overview",
                                               }
                         }
+                        search=""
             />
-            <CoinCard
+            <Component
                         coin={
                                     Object {
                                                 "Algorithm": "X11",
@@ -1140,8 +1383,9 @@ ShallowWrapper {
                                                 "Url": "/coins/2015/overview",
                                               }
                         }
+                        search=""
             />
-            <CoinCard
+            <Component
                         coin={
                                     Object {
                                                 "Algorithm": "SHA256",
@@ -1164,6 +1408,7 @@ ShallowWrapper {
                                                 "Url": "/coins/btc/overview",
                                               }
                         }
+                        search=""
             />
 </div>,
         ],
@@ -1238,7 +1483,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <CoinCard
+              <Component
                 coin={
                                 Object {
                                                 "Algorithm": "Scrypt",
@@ -1261,8 +1506,9 @@ ShallowWrapper {
                                                 "Url": "/coins/42/overview",
                                               }
                 }
+                search=""
 />,
-              <CoinCard
+              <Component
                 coin={
                                 Object {
                                                 "Algorithm": "N/A",
@@ -1285,8 +1531,9 @@ ShallowWrapper {
                                                 "Url": "/coins/300/overview",
                                               }
                 }
+                search=""
 />,
-              <CoinCard
+              <Component
                 coin={
                                 Object {
                                                 "Algorithm": "X11",
@@ -1309,8 +1556,9 @@ ShallowWrapper {
                                                 "Url": "/coins/365/overview",
                                               }
                 }
+                search=""
 />,
-              <CoinCard
+              <Component
                 coin={
                                 Object {
                                                 "Algorithm": "Scrypt",
@@ -1333,8 +1581,9 @@ ShallowWrapper {
                                                 "Url": "/coins/404/overview",
                                               }
                 }
+                search=""
 />,
-              <CoinCard
+              <Component
                 coin={
                                 Object {
                                                 "Algorithm": "SHA256",
@@ -1357,8 +1606,9 @@ ShallowWrapper {
                                                 "Url": "/coins/611/overview",
                                               }
                 }
+                search=""
 />,
-              <CoinCard
+              <Component
                 coin={
                                 Object {
                                                 "Algorithm": "SHA256",
@@ -1381,8 +1631,9 @@ ShallowWrapper {
                                                 "Url": "/coins/808/overview",
                                               }
                 }
+                search=""
 />,
-              <CoinCard
+              <Component
                 coin={
                                 Object {
                                                 "Algorithm": "N/A",
@@ -1405,8 +1656,9 @@ ShallowWrapper {
                                                 "Url": "/coins/888/overview",
                                               }
                 }
+                search=""
 />,
-              <CoinCard
+              <Component
                 coin={
                                 Object {
                                                 "Algorithm": "X13",
@@ -1429,8 +1681,9 @@ ShallowWrapper {
                                                 "Url": "/coins/1337/overview",
                                               }
                 }
+                search=""
 />,
-              <CoinCard
+              <Component
                 coin={
                                 Object {
                                                 "Algorithm": "X11",
@@ -1453,8 +1706,9 @@ ShallowWrapper {
                                                 "Url": "/coins/2015/overview",
                                               }
                 }
+                search=""
 />,
-              <CoinCard
+              <Component
                 coin={
                                 Object {
                                                 "Algorithm": "SHA256",
@@ -1477,6 +1731,7 @@ ShallowWrapper {
                                                 "Url": "/coins/btc/overview",
                                               }
                 }
+                search=""
 />,
             ],
             "className": "coin-list",
@@ -1486,7 +1741,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "4321",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "coin": Object {
                   "Algorithm": "Scrypt",
@@ -1508,6 +1763,7 @@ ShallowWrapper {
                   "TotalCoinsFreeFloat": "N/A",
                   "Url": "/coins/42/overview",
                 },
+                "search": "",
               },
               "ref": null,
               "rendered": null,
@@ -1516,7 +1772,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "749869",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "coin": Object {
                   "Algorithm": "N/A",
@@ -1538,6 +1794,7 @@ ShallowWrapper {
                   "TotalCoinsFreeFloat": "N/A",
                   "Url": "/coins/300/overview",
                 },
+                "search": "",
               },
               "ref": null,
               "rendered": null,
@@ -1546,7 +1803,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "33639",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "coin": Object {
                   "Algorithm": "X11",
@@ -1568,6 +1825,7 @@ ShallowWrapper {
                   "TotalCoinsFreeFloat": "N/A",
                   "Url": "/coins/365/overview",
                 },
+                "search": "",
               },
               "ref": null,
               "rendered": null,
@@ -1576,7 +1834,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "21227",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "coin": Object {
                   "Algorithm": "Scrypt",
@@ -1598,6 +1856,7 @@ ShallowWrapper {
                   "TotalCoinsFreeFloat": "N/A",
                   "Url": "/coins/404/overview",
                 },
+                "search": "",
               },
               "ref": null,
               "rendered": null,
@@ -1606,7 +1865,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "20909",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "coin": Object {
                   "Algorithm": "SHA256",
@@ -1628,6 +1887,7 @@ ShallowWrapper {
                   "TotalCoinsFreeFloat": "N/A",
                   "Url": "/coins/611/overview",
                 },
+                "search": "",
               },
               "ref": null,
               "rendered": null,
@@ -1636,7 +1896,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "28223",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "coin": Object {
                   "Algorithm": "SHA256",
@@ -1658,6 +1918,7 @@ ShallowWrapper {
                   "TotalCoinsFreeFloat": "N/A",
                   "Url": "/coins/808/overview",
                 },
+                "search": "",
               },
               "ref": null,
               "rendered": null,
@@ -1666,7 +1927,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "29462",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "coin": Object {
                   "Algorithm": "N/A",
@@ -1688,6 +1949,7 @@ ShallowWrapper {
                   "TotalCoinsFreeFloat": "N/A",
                   "Url": "/coins/888/overview",
                 },
+                "search": "",
               },
               "ref": null,
               "rendered": null,
@@ -1696,7 +1958,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "20824",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "coin": Object {
                   "Algorithm": "X13",
@@ -1718,6 +1980,7 @@ ShallowWrapper {
                   "TotalCoinsFreeFloat": "N/A",
                   "Url": "/coins/1337/overview",
                 },
+                "search": "",
               },
               "ref": null,
               "rendered": null,
@@ -1726,7 +1989,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "3744",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "coin": Object {
                   "Algorithm": "X11",
@@ -1748,6 +2011,7 @@ ShallowWrapper {
                   "TotalCoinsFreeFloat": "N/A",
                   "Url": "/coins/2015/overview",
                 },
+                "search": "",
               },
               "ref": null,
               "rendered": null,
@@ -1756,7 +2020,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "1182",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "coin": Object {
                   "Algorithm": "SHA256",
@@ -1778,6 +2042,7 @@ ShallowWrapper {
                   "TotalCoinsFreeFloat": "N/A",
                   "Url": "/coins/btc/overview",
                 },
+                "search": "",
               },
               "ref": null,
               "rendered": null,
