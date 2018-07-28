@@ -16,22 +16,6 @@ class Coins extends Component {
     search: '',
   };
 
-  componentDidMount() {
-    console.log('componentDidMount');
-  }
-
-  componentDidUpdate() {
-    console.log('componentDidUpdate');
-  }
-
-  componentWillUnmount() {
-    console.log('componentWillUnmount');
-  }
-
-  shouldComponentUpdate(nextProps, nextState) {
-    return true;
-  }
-
   handleSearchChange = (event) => {
     this.setState({ search: event.target.value });
   };
@@ -61,7 +45,7 @@ class Coins extends Component {
         </div>
         <div className="coin-list">
           {this.filterListBySearchTerm(coinsList, search).map(coin => (
-            <CoinCard coin={coin} key={coin.Id} search={search} handleSearchChange={this.handleSearchChange} />
+            <CoinCard coin={coin} key={coin.Id} />
           ))}
         </div>
       </div>
