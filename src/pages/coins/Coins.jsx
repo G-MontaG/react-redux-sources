@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import CoinCard from '../../components/CoinCard';
 import './Coins.css';
+import Input from '../../components/Input';
 
 class Coins extends Component {
   propTypes = {
@@ -16,8 +17,8 @@ class Coins extends Component {
     search: '',
   };
 
-  handleSearchChange = (event) => {
-    this.setState({ search: event.target.value });
+  handleSearchChange = (search) => {
+    this.setState({ search });
   };
 
   filterListBySearchTerm = (list, searchTerm) => (
@@ -31,17 +32,7 @@ class Coins extends Component {
     return (
       <div>
         <div>
-          <label htmlFor="search">
-            Search
-            <input
-              type="text"
-              name="search"
-              id="search"
-              placeholder="Type to search"
-              value={search}
-              onChange={this.handleSearchChange}
-            />
-          </label>
+          <Input value={search} onChange={this.handleSearchChange} />
         </div>
         <div className="coin-list">
           {this.filterListBySearchTerm(coinsList, search).map(coin => (
