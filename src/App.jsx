@@ -8,17 +8,23 @@ import News from './pages/news/News';
 import TopExchanges from './pages/topExchanges/TopExchanges';
 import ForOFor from './pages/404';
 import CoinCard from './components/CoinCard';
-import coinsData from './data/coinsList.json';
 import './App.css';
 
 class App extends Component {
   state = {
-    coinsList: Object.keys(coinsData.Data).slice(0, 10).map(key => coinsData.Data[key]),
+    coinsList: [],
   };
 
   filterListById = (list, id) => (
     list.find(coin => coin.Id === id)
   );
+
+  componentDidMount() {
+    fetch('https://min-api.cryptocompare.com/data/all/coinlist')
+      .then(responce => responce.json())
+      .then(responce => this.setState({ coinsList: Object.keys(responce.Data).slice(0, 10).map(key => responce.Data[key]) }))
+      .catch(err => alert(err));
+  }
 
   render() {
     const { coinsList } = this.state;

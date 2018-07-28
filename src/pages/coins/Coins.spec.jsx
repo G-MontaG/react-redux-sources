@@ -19,7 +19,7 @@ test('Search should render correct amount of coins', () => {
 test('Search should render correct amount of coins based on seach term', () => {
   const component = shallow(<Coins coinsList={coinsList} />);
   const searchTerm = 'bitcoin';
-  component.find('input').simulate('change', { target: { value: searchTerm } });
+  component.setState({ search: searchTerm });
   const searchCount = component.instance().filterListBySearchTerm(coinsList, searchTerm).length;
   expect(component.find(Coin).length).toEqual(searchCount);
 });

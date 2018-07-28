@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class Input extends Component {
-  propTypes = {
+  static propTypes = {
     value: PropTypes.string.isRequired,
     onChange: PropTypes.func.isRequired,
   }

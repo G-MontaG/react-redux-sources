@@ -5,13 +5,9 @@ import './Coins.css';
 import Input from '../../components/Input';
 
 class Coins extends Component {
-  propTypes = {
+  static propTypes = {
     coinsList: PropTypes.array.isRequired,
   };
-
-  defaultProps = {
-    coinsList: [],
-  }
 
   state = {
     search: '',
