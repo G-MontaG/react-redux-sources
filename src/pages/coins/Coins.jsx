@@ -61,7 +61,7 @@ class Coins extends Component {
         </div>
         <div className="coin-list">
           {this.filterListBySearchTerm(coinsList, search).map(coin => (
-            <CoinCard coin={coin} key={coin.Id} search={search} />
+            <CoinCard coin={coin} key={coin.Id} search={search} handleSearchChange={this.handleSearchChange} />
           ))}
         </div>
       </div>
