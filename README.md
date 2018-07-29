@@ -10,7 +10,8 @@ React+Redux course code samples
 6. Lifecycle (branch `lifecycle`).
 7. Data in React (branch `data-in-react`).
 8. Error Boundaries, Portals, Context (branch `context`).
-9. Redux (branch `redux`).
-10. Async Redux (branch `async-redux`).
-11. Testing Redux (branch `testing-redux`).
-12. Code splitting and async routing (branch `code-splitting-and-async-routing`).
+9. Async router and universal rendering (branch `async-router`)
+10. Redux (branch `redux`).
+11. Async Redux (branch `async-redux`).
+12. Testing Redux (branch `testing-redux`).
+13. Code splitting and async routing (branch `code-splitting-and-async-routing`).
