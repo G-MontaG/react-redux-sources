@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import CoinCard from '../../components/CoinCard';
-import './Coins.css';
 import Input from '../../components/Input';
+import './Coins.css';
 
 class Coins extends Component {
   static propTypes = {

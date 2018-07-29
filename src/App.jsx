@@ -1,14 +1,25 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch, NavLink } from 'react-router-dom';
-import Landing from './pages/landing/Landing';
+import Loadable from 'react-loadable';
 import Coins from './pages/coins/Coins';
+import CoinCard from './components/CoinCard';
 import Converter from './pages/converter/Converter';
 import History from './pages/history/History';
 import News from './pages/news/News';
-import TopExchanges from './pages/topExchanges/TopExchanges';
 import ForOFor from './pages/404';
-import CoinCard from './components/CoinCard';
 import './App.css';
+
+const AsyncLanding = Loadable({
+  loader: () => import(/* webpackChunkName: "LandingChunk"*/ './pages/landing/Landing'),
+  loading: () => null,
+  modules: ['LandingChunk'],
+});
+
+const AsyncTopExchanges = Loadable({
+  loader: () => import(/* webpackChunkName: "TopExchangesChunk"*/ './pages/topExchanges/TopExchanges'),
+  loading: () => null,
+  modules: ['TopExchangesChunk'],
+});
 
 class App extends Component {
   state = {
@@ -53,7 +64,7 @@ class App extends Component {
             </li>
           </ul>
           <Switch>
-            <Route exact path="/" component={Landing} />
+            <Route exact path="/" component={AsyncLanding} />
             <Route exact path="/coins" component={props => <Coins {...props} coinsList={coinsList} />} />
             <Route
               path="/coins/:id"
@@ -64,7 +75,7 @@ class App extends Component {
             <Route path="/converter" component={Converter} />
             <Route path="/history" component={History} />
             <Route path="/news" component={News} />
-            <Route path="/top-exchanges" component={TopExchanges} />
+            <Route path="/top-exchanges" component={AsyncTopExchanges} />
             <Route component={ForOFor} />
           </Switch>
         </div>
