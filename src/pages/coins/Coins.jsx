@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import CoinCard from '../../components/CoinCard';
 import './Coins.css';
 import Input from '../../components/Input';
+import { searchCoinsAction } from '../../actions/SearchActions';
 
 class Coins extends Component {
   static propTypes = {
     coinsList: PropTypes.array.isRequired,
-  };
-
-  state = {
-    search: '',
+    search: PropTypes.string.isRequired,
+    searchCoinsAction: PropTypes.func.isRequired,
   };
 
   handleSearchChange = (search) => {
-    this.setState({ search });
+    this.props.searchCoinsAction(search);
   };
 
   filterListBySearchTerm = (list, searchTerm) => (
@@ -22,8 +22,7 @@ class Coins extends Component {
   );
 
   render() {
-    const { search } = this.state;
-    const { coinsList } = this.props;
+    const { coinsList, search } = this.props;
 
     return (
       <div>
@@ -40,4 +39,17 @@ class Coins extends Component {
   }
 }
 
-export default Coins;
+const mapStateToProps = state => ({
+  search: state.searchReducer.search,
+});
+
+const mapDispatchToProps = {
+  searchCoinsAction,
+};
+
+const CoinsComponent = connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(Coins);
+
+export default CoinsComponent;
