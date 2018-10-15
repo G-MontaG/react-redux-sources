@@ -11,15 +11,14 @@ test('Coins render correctly', () => {
   expect(component).toMatchSnapshot();
 });
 
-xtest('Search should render correct amount of coins', () => {
-  const component = shallow(<UnwrappedCoins coinsList={coinsList} />).dive();
+test('Search should render correct amount of coins', () => {
+  const component = shallow(<UnwrappedCoins coinsList={coinsList} search="" searchCoinsAction={() => {}} />);
   expect(component.find(Coin).length).toEqual(coinsList.length);
 });
 
-xtest('Search should render correct amount of coins based on seach term', () => {
-  const component = shallow(<UnwrappedCoins coinsList={coinsList} />).dive();
+test('Search should render correct amount of coins based on seach term', () => {
   const searchTerm = 'bitcoin';
-  component.setState({ search: searchTerm });
+  const component = shallow(<UnwrappedCoins coinsList={coinsList} search={searchTerm} searchCoinsAction={() => {}} />);
   const searchCount = component.instance().filterListBySearchTerm(coinsList, searchTerm).length;
   expect(component.find(Coin).length).toEqual(searchCount);
 });
