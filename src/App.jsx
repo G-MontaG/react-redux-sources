@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch, NavLink } from 'react-router-dom';
 import Landing from './pages/landing/Landing';
-import CoinsComponent from './pages/coins/Coins';
+import Coins from './pages/coins/Coins';
 import Converter from './pages/converter/Converter';
 import History from './pages/history/History';
 import News from './pages/news/News';
@@ -54,7 +54,7 @@ class App extends Component {
           </ul>
           <Switch>
             <Route exact path="/" component={Landing} />
-            <Route exact path="/coins" component={props => <CoinsComponent {...props} coinsList={coinsList} />} />
+            <Route exact path="/coins" component={props => <Coins {...props} coinsList={coinsList} />} />
             <Route
               path="/coins/:id"
               component={props => (

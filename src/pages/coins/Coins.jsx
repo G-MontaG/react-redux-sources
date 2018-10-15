@@ -6,7 +6,7 @@ import './Coins.css';
 import Input from '../../components/Input';
 import { searchCoinsAction } from '../../actions/SearchActions';
 
-class Coins extends Component {
+class CoinsComponent extends Component {
   static propTypes = {
     coinsList: PropTypes.array.isRequired,
     search: PropTypes.string.isRequired,
@@ -47,9 +47,11 @@ const mapDispatchToProps = {
   searchCoinsAction,
 };
 
-const CoinsComponent = connect(
+const Coins = connect(
   mapStateToProps,
   mapDispatchToProps,
-)(Coins);
+)(CoinsComponent);
 
-export default CoinsComponent;
+export const UnwrappedCoins = CoinsComponent;
+
+export default Coins;

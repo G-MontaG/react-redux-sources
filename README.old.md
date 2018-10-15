@@ -11,7 +11,7 @@ React+Redux course code samples
 7. Data in React (branch `data-in-react`).
 8. Redux without react (branch `redux-without-react`).
 9. Redux (branch `redux`).
-10. Async Redux (branch `async-redux`).
-11. Testing Redux (branch `testing-redux`).
+10. Testing Redux (branch `testing-redux`).
+11. Async Redux (branch `async-redux`).
 12. Universal rendering (branch `universal-rendering`).
 13. Code splitting and async routing (branch `code-splitting-and-async-routing`).

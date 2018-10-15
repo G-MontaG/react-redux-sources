@@ -4,7 +4,7 @@ exports[`Coins render correctly 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Coins
+  Symbol(enzyme.__unrendered__): <CoinsComponent
     coinsList={
         Array [
             Object {
@@ -209,6 +209,8 @@ ShallowWrapper {
             },
           ]
     }
+    search=""
+    searchCoinsAction={[Function]}
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
