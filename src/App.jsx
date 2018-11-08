@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch, NavLink } from 'react-router-dom';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 import Landing from './pages/landing/Landing';
 import Coins from './pages/coins/Coins';
 import Converter from './pages/converter/Converter';
@@ -8,11 +10,13 @@ import News from './pages/news/News';
 import TopExchanges from './pages/topExchanges/TopExchanges';
 import ForOFor from './pages/404';
 import CoinCard from './components/CoinCard';
+import { getCoinsList } from './actions/CoinsActions';
 import './App.css';
 
-class App extends Component {
-  state = {
-    coinsList: [],
+class AppComponent extends Component {
+  static propTypes = {
+    coinsList: PropTypes.array,
+    getCoinsList: PropTypes.func,
   };
 
   filterListById = (list, id) => (
@@ -20,14 +24,11 @@ class App extends Component {
   );
 
   componentDidMount() {
-    fetch('https://min-api.cryptocompare.com/data/all/coinlist')
-      .then(responce => responce.json())
-      .then(responce => this.setState({ coinsList: Object.keys(responce.Data).slice(0, 10).map(key => responce.Data[key]) }))
-      .catch(err => alert(err));
+    this.props.getCoinsList();
   }
 
   render() {
-    const { coinsList } = this.state;
+    const { coinsList } = this.props;
 
     return (
       <BrowserRouter>
@@ -72,5 +73,18 @@ class App extends Component {
     );
   }
 }
+
+const mapStateToProps = state => ({
+  coinsList: state.coinsReducer.coinsList,
+});
+
+const mapDispatchToProps = {
+  getCoinsList,
+};
+
+const App = connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(AppComponent);
 
 export default App;

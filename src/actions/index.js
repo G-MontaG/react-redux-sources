@@ -1,1 +1,2 @@
 import './SearchActions';
+import './CoinsActions';
