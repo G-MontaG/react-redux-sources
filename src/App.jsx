@@ -10,13 +10,13 @@ import News from './pages/news/News';
 import TopExchanges from './pages/topExchanges/TopExchanges';
 import ForOFor from './pages/404';
 import CoinCard from './components/CoinCard';
-import { getCoinsList } from './actions/CoinsActions';
+import { requestCoinsListAction } from './actions/CoinsActionsBySaga';
 import './App.css';
 
 class AppComponent extends Component {
   static propTypes = {
     coinsList: PropTypes.array,
-    getCoinsList: PropTypes.func,
+    requestCoinsListAction: PropTypes.func,
   };
 
   filterListById = (list, id) => (
@@ -24,7 +24,7 @@ class AppComponent extends Component {
   );
 
   componentDidMount() {
-    this.props.getCoinsList();
+    this.props.requestCoinsListAction();
   }
 
   render() {
@@ -79,7 +79,7 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = {
-  getCoinsList,
+  requestCoinsListAction,
 };
 
 const App = connect(
