@@ -16,7 +16,7 @@ export const errorCoinsListAction = (err) => ({
 });
 
 export const getCoinsList = () => (dispatch) => {
-  requestCoinsListAction();
+  dispatch(requestCoinsListAction());
   return fetch('https://min-api.cryptocompare.com/data/all/coinlist')
     .then(responce => responce.json())
     .then(responce => dispatch(receiveCoinsListAction(Object.keys(responce.Data).slice(0, 10).map(key => responce.Data[key]))))
